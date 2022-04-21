@@ -11,7 +11,9 @@ For mod_overrides branch: 100% of the files from it go to your mod_overrides fol
 
 # For mods branch: all the files from that branch go to your mods folder.
 # Example path for both branches: mod_overrides branch: everything from it goes to D:\Steam\steamapps\common\PAYDAY 2\assets\mod_overrides 
-# mods branch: self explanatory, everything goes to D:\Steam\steamapps\common\PAYDAY 2\mods
+(example path, I have PAYDAY 2 installed on my D drive)
+
+# mods branch: self explanatory, everything goes to D:\Steam\steamapps\common\PAYDAY 2\mods (example path, I have PAYDAY 2 installed on my D drive)
 
 
 
