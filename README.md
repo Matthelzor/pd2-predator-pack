@@ -1,4 +1,4 @@
-# PAYDAY 2: Predator Pack 
+# PAYDAY 2: Predator Pack - YOU ARE CURRENTLY IN THE MODS BRANCH
 [![](https://modworkshop.net/mydownloads/previews/95_1648207400_17310b85f440300cb6696e337a9d3b66.webp)](https://modworkshop.net/mod/36402)
 
 Predator Pack is a huge unofficial modpack created for PAYDAY 2 that adds a lot of new things to the game in terms of cosmetics, weapons/QoL and many more. This repo has been created to help us get the best workflow and management on the project.
