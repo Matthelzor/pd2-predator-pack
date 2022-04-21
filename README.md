@@ -18,3 +18,4 @@ mod_overrides branch: everything from it goes to D:\Steam\steamapps\common\PAYDA
 mods branch: self explanatory, everything goes to D:\Steam\steamapps\common\PAYDAY 2\mods
 
 
+You are currently in the mods branch, this branch serves purpose for quality of life improvements and cool stuff that involves extensive lua usage.
