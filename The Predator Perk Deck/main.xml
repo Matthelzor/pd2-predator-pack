@@ -1,0 +1,13 @@
+<mod name="The Predator Perk Deck" author="Offyerrocker" color="Color(1,1,1)">
+<!-- disabled since beardlib assetupdates doesn't play nice with modpacks
+	<AssetUpdates id="36402" version="0.3" provider="modworkshop" install_directory = "mods/" />
+-->
+
+	<AddFiles directory="assets">	
+		<texture path="guis/dlcs/oak/textures/pd2/specialization/icons_atlas"/>
+	</AddFiles>
+
+	<Localization directory="loc" default="english.json">
+		<loc file="english.json" language="english" />
+	</Localization>
+</mod>

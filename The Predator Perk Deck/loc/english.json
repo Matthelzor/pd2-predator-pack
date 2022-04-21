@@ -1,0 +1,14 @@
+{
+	"menu_deck_oak_title" : "The Predator",
+	"menu_deck_oak_desc" : "Screams echo in the night air.\n\nA smell like copper lingers.\n\nThe patrol does not return.",
+	"menu_deck_oak_1_title" : "Warrior's Reclamation",
+	"menu_deck_oak_1_desc" : "Damaging an enemy will restore ##10%## of your total armor.\n\nThis can only happen once every ##5## seconds.",
+	"menu_deck_oak_3_title" : "Ancient Guidance",
+	"menu_deck_oak_3_desc" : "##50%## of your maximum health is removed and converted into maximum armor, at a rate of ##1## health lost to ##1.25## armor gained.\n\nAdditionally, your health is divided into ##8## segments. If you would take more than one segment of health damage, you instead only lose your current health segment.",
+	"menu_deck_oak_5_title" : "Blood Pact",
+	"menu_deck_oak_5_desc" : "You gain ##+100%## melee damage for every ally within ##15## meters of yourself. This includes players, Teammate AI, and converted enemies.",
+	"menu_deck_oak_7_title" : "Thrill of the Hunt",
+	"menu_deck_oak_7_desc" : "Kills with your primary weapon, secondary weapon, or throwables will restore ##5%## of your maximum health. Melee kills will restore ##15%## of your maximum health.\n\nThis can only happen once every ##3## seconds.",
+	"menu_deck_oak_9_title" : "Ikthala",
+	"menu_deck_oak_9_desc" : "When your armor breaks, all enemies within ##15## meters of your location are set ablaze.\nEach enemy set alight from this effect grants you a stack of Ikthala.\n\nEach stack of Ikthala grants you ##+5%## weapon damage, ##+100%## melee damage, ##+10%## weapon rate of fire, ##+5%## damage reduction, and ##+5## damage absorption, with a maximum of ##5## stacks of Ikthala.\nAll stacks are removed after ##10## seconds.\n\nThis effect can only occur once every ##20## seconds."
+}

@@ -1,0 +1,10 @@
+{
+	"name" : "Proximity Tripmines",
+	"description" : "Tripmines mark and explode based on distance"
+	"author" : "Hoppip",
+	"color" : "0.043 0.808 0.6",
+	"priority" : -100
+	"hooks" : [
+		{ "hook_id" : "lib/units/weapons/trip_mine/tripminebase", "script_path" : "mod.lua" }
+	]
+}

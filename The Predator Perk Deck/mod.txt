@@ -1,0 +1,42 @@
+{
+	"name" : "The Predator Perk Deck",
+	"description" : "A Custom Perk Deck designed by KingKrayola",
+	"author" : "Offyerrocker",
+	"contact" : "Discord: Offyerrocker#3878",
+	"blt_version" : 2,
+	"color" : "255 255 255",
+	"hooks"	:   [
+		{
+			"hook_id" : "lib/tweak_data/skilltreetweakdata",
+			"script_path" : "lua/skilltreetweakdata.lua"
+		},
+		{
+			"hook_id" : "lib/tweak_data/upgradestweakdata",
+			"script_path" : "lua/upgradestweakdata.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/localizationmanager.lua"
+		},
+		{
+			"hook_id" : "lib/managers/playermanager",
+			"script_path" : "lua/playermanager.lua"
+		},
+		{
+			"hook_id" : "lib/managers/hud/hudteammate",
+			"script_path" : "lua/hudteammate.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/playerdamage",
+			"script_path" : "lua/playerdamage.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/newraycastweaponbase",
+			"script_path" : "lua/newraycastweaponbase.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/raycastweaponbase",
+			"script_path" : "lua/raycastweaponbase.lua"
+		}
+	]
+}
