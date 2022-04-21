@@ -1,0 +1,47 @@
+{
+	"menu_l_global_value_predator_mod" : "This is a Predator Pack Item!",
+
+	"bm_suit_predator" : "Predator Outfit",
+	"bm_suit_predator_desc" : "''Whoah! How did the PAYDAY Gang get their hands on these?! Yautja's are going to be super pissed, which is why you've got a perfect opportunity to become one of them, or to be more specific... A PREDATOR!",
+
+	"bm_suit_predator_samurai" :  "Samurai Predator Outfit",
+	"bm_suit_predator_samurai_desc" : "''Just like Ginsu Knives, this one will cut through anything. You look Sharp!''",
+
+	"bm_suit_predator_exiled" : "Exiled Predator Outfit",
+	"bm_suit_predator_exiled_desc" : "''Conquer and reclaim your land along with the banks with this tribal outfit.''",		
+
+	"bm_suit_predator_alpha" : "Predator Alpha Outfit",
+	"bm_suit_predator_alpha_desc" : "''Warrior's Spirit!''",	
+
+	"bm_suit_predator_viking" : "Predator Viking Outfit",
+	"bm_suit_predator_viking_desc" : "''Death is a fate better than life. Make the best of it.''",	
+
+	"bm_suit_owfl_operative" : "O.W.F.L Operative Outfit",
+	"bm_suit_owfl_operative_desc" : "''Only the toughest and fearless get to put this high tech gear on them. Are you up for this?''",
+
+
+
+  	"bm_suit_var_owfl_operative_default" : "O.W.F.L Operative Default Look",
+  	"bm_suit_var_owfl_operative_default_desc" : "Team players only.",		 
+
+    "bm_suit_var_owfl_operative_white" : "Winter Soldier",
+    "bm_suit_var_owfl_operative_white_desc" : "Keeps you warm even in the harsh cold conditions.",
+
+  	"bm_suit_var_owfl_operative_red" : "Red Colour",
+  	"bm_suit_var_owfl_operative_red_desc" : "Is that your blood? Oh, thought it was mine.",
+
+  	"bm_suit_var_owfl_operative_blue" : "Blue Colour.",
+  	"bm_suit_var_owfl_operative_blue_desc" : "You see it often in the sky.",	  
+
+  	"bm_suit_var_owfl_operative_green" : "Green Colour",
+  	"bm_suit_var_owfl_operative_green_desc" : "Don't mistake it with Yautjan Blood.",
+
+  	"bm_suit_var_owfl_operative_yellow" : "Yellow Colour",
+  	"bm_suit_var_owfl_operative_yellow_desc" : "WARNING - BIOHAZARD DETECTED.", 
+
+  	"bm_suit_var_owfl_operative_black_gold" : "Gold Black Colour",
+  	"bm_suit_var_owfl_operative_black_gold_desc" : "Only the richest will survive.",
+
+  	"bm_suit_var_owfl_operative_yautjian_blood" : "Yautjan Blood and Black",
+  	"bm_suit_var_owfl_operative_yautjian_blood_desc" : "Keeps your enemies close, wear it with pride. Also you should know that your clothing is infused with the Blood of a Yautjan Predator so you will glow like a pair of glowsticks during day and night."		
+}

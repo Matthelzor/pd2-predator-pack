@@ -1,0 +1,21 @@
+<unit type="wpn" slot="1">
+	<object file="units/mods/weapons/wpn_fps_upg_fl_pinty_combo_tribeam/wpn_fps_upg_fl_pinty_combo_tribeam"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>	
+		<extension name="base" class="WeaponMultiLaser">
+			<var name="g_lasers" type="table">
+				<var value="g_laser_1"/>
+				<var value="g_laser_2"/>
+				<var value="g_laser_3"/>
+			</var>
+			<var name="g_indicators" type="table">
+				<var value="g_indicator"/>
+			</var>
+			<var name="laser_objects" type="table">
+				<var value="a_laser_1"/>
+				<var value="a_laser_2"/>
+				<var value="a_laser_3"/>
+			</var>
+		</extension>
+	</extensions>
+</unit>

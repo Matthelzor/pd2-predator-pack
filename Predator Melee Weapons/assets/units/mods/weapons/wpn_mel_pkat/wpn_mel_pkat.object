@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_pkat" materials="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat" />
+    <graphics>
+        <object enabled="true" name="g_pkat" />
+    </graphics>
+
+	<effects>
+		<effect_spawner name="fire" enabled="true" object="fire" effect="units/mods/weapons/wpn_mel_pkat/fire" />
+	</effects>	
+
+</dynamic_object>

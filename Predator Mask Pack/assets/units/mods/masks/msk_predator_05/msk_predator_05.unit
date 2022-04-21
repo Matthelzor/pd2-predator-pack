@@ -1,0 +1,7 @@
+<unit type="msk" slot="1">
+	<object file="units/mods/masks/msk_predator_05/msk_predator_05" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="base" class="MaskExt" />
+	</extensions>
+</unit>

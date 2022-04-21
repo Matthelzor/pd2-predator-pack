@@ -1,0 +1,319 @@
+<table name="Predator Mask Pack" image="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_01">
+    <Localization directory="localization" default="english.json"/>
+
+    <GlobalValue id="predator_mod" color="Color(1.1, 2.0, 0.1)"/>
+
+    <Mask id="predator_detox" unit="units/mods/masks/msk_predator_detox/msk_predator_detox" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>    
+
+    <Mask id="predator_mr_black" unit="units/mods/masks/msk_predator_mr_black/msk_predator_mr_black" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_kawaii" unit="units/mods/masks/msk_predator_kawaii/msk_predator_kawaii" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+
+    <Mask id="predator_wretch" unit="units/mods/masks/msk_predator_wretch/msk_predator_wretch" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+
+    <Mask id="predator_maskless" unit="units/mods/masks/msk_predator_maskless/msk_predator_maskless" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+
+    <Mask id="predator_01" unit="units/mods/masks/msk_predator_01/msk_predator_01" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_02" unit="units/mods/masks/msk_predator_02/msk_predator_02" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_03" unit="units/mods/masks/msk_predator_03/msk_predator_03" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_04" unit="units/mods/masks/msk_predator_04/msk_predator_04" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_05" unit="units/mods/masks/msk_predator_05/msk_predator_05" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_06" unit="units/mods/masks/msk_predator_06/msk_predator_06" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_07" unit="units/mods/masks/msk_predator_07/msk_predator_07" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_08" unit="units/mods/masks/msk_predator_08/msk_predator_08" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_09" unit="units/mods/masks/msk_predator_09/msk_predator_09" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_10" unit="units/mods/masks/msk_predator_10/msk_predator_10" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_11" unit="units/mods/masks/msk_predator_11/msk_predator_11" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_12" unit="units/mods/masks/msk_predator_12/msk_predator_12" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_13" unit="units/mods/masks/msk_predator_13/msk_predator_13" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_14" unit="units/mods/masks/msk_predator_14/msk_predator_14" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_15" unit="units/mods/masks/msk_predator_15/msk_predator_15" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_16" unit="units/mods/masks/msk_predator_16/msk_predator_16" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_17" unit="units/mods/masks/msk_predator_17/msk_predator_17" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_18" unit="units/mods/masks/msk_predator_18/msk_predator_18" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_19" unit="units/mods/masks/msk_predator_19/msk_predator_19" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_20" unit="units/mods/masks/msk_predator_20/msk_predator_20" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_21" unit="units/mods/masks/msk_predator_21/msk_predator_21" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_22" unit="units/mods/masks/msk_predator_22/msk_predator_22" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_22_extra" unit="units/mods/masks/msk_predator_22_extra/msk_predator_22_extra" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="predator_23" unit="units/mods/masks/msk_predator_23/msk_predator_23" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>
+
+    <Mask id="owfl_gasmask" unit="units/mods/masks/msk_owfl_gasmask/msk_owfl_gasmask" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision_blue" light="0.4"/>
+    </Mask>
+
+    <Mask id="samurai_predator" unit="units/mods/masks/msk_samurai_predator/msk_samurai_predator" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.3"/>
+    </Mask>    
+
+    <AddFiles directory="assets">
+
+        <unit_mat path="units/mods/masks/msk_predator_detox/msk_predator_detox"/>
+        <df_nm path="units/mods/masks/msk_predator_detox/mask"/>
+        <texture path="units/mods/masks/msk_predator_detox/il"/>
+
+
+
+        <unit_mat path="units/mods/masks/msk_predator_mr_black/msk_predator_mr_black"/>
+        <df_nm path="units/mods/masks/msk_predator_mr_black/mask"/>
+        <texture path="units/mods/masks/msk_predator_mr_black/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_kawaii/msk_predator_kawaii"/>
+        <texture path="units/mods/masks/msk_predator_kawaii/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_wretch/msk_predator_wretch"/>
+        <df_nm path="units/mods/masks/msk_predator_wretch/mask"/>
+
+
+
+        <unit_mat path="units/mods/masks/msk_predator_maskless/msk_predator_maskless"/>
+        <df_nm path="units/mods/masks/msk_predator_maskless/base"/>
+        <df_nm path="units/mods/masks/msk_predator_maskless/eye"/>
+
+
+
+
+        <unit_mat path="units/mods/masks/msk_predator_01/msk_predator_01"/>
+        <df_nm path="units/mods/masks/msk_predator_01/mask"/>
+        <df_nm path="units/mods/masks/msk_predator_01/base"/>
+        <texture path="units/mods/masks/msk_predator_01/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_02/msk_predator_02"/>
+        <df_nm path="units/mods/masks/msk_predator_02/mask"/>
+        <texture path="units/mods/masks/msk_predator_02/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_03/msk_predator_03"/>
+        <df_nm path="units/mods/masks/msk_predator_03/mask"/>
+        <texture path="units/mods/masks/msk_predator_03/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_04/msk_predator_04"/>
+        <df_nm path="units/mods/masks/msk_predator_04/mask"/>
+        <texture path="units/mods/masks/msk_predator_04/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_05/msk_predator_05"/>
+        <df_nm path="units/mods/masks/msk_predator_05/mask"/>
+        <texture path="units/mods/masks/msk_predator_05/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_06/msk_predator_06"/>
+        <df_nm path="units/mods/masks/msk_predator_06/mask"/>
+        <texture path="units/mods/masks/msk_predator_06/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_07/msk_predator_07"/>
+        <df_nm path="units/mods/masks/msk_predator_07/mask"/>
+        <texture path="units/mods/masks/msk_predator_07/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_08/msk_predator_08"/>
+        <df_nm path="units/mods/masks/msk_predator_08/mask"/>
+        <texture path="units/mods/masks/msk_predator_08/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_09/msk_predator_09"/>
+        <df_nm path="units/mods/masks/msk_predator_09/mask"/>
+        <texture path="units/mods/masks/msk_predator_09/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_10/msk_predator_10"/>
+        <df_nm path="units/mods/masks/msk_predator_10/mask"/>
+        <texture path="units/mods/masks/msk_predator_10/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_11/msk_predator_11"/>
+        <df_nm path="units/mods/masks/msk_predator_11/mask"/>
+        <texture path="units/mods/masks/msk_predator_11/il"/>
+
+
+
+        <unit_mat path="units/mods/masks/msk_predator_12/msk_predator_12"/>
+        <df_nm path="units/mods/masks/msk_predator_12/mask"/>
+        <texture path="units/mods/masks/msk_predator_12/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_13/msk_predator_13"/>
+        <df_nm path="units/mods/masks/msk_predator_13/mask"/>
+        <texture path="units/mods/masks/msk_predator_13/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_14/msk_predator_14"/>
+        <df_nm path="units/mods/masks/msk_predator_14/mask"/>
+        <texture path="units/mods/masks/msk_predator_14/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_15/msk_predator_15"/>
+        <df_nm path="units/mods/masks/msk_predator_15/mask"/>
+        <texture path="units/mods/masks/msk_predator_15/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_16/msk_predator_16"/>
+        <df_nm path="units/mods/masks/msk_predator_16/mask"/>
+        <texture path="units/mods/masks/msk_predator_16/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_17/msk_predator_17"/>
+        <df_nm path="units/mods/masks/msk_predator_17/mask"/>
+        <texture path="units/mods/masks/msk_predator_17/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_18/msk_predator_18"/>
+        <df_nm path="units/mods/masks/msk_predator_18/mask"/>
+        <texture path="units/mods/masks/msk_predator_18/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_19/msk_predator_19"/>
+        <df_nm path="units/mods/masks/msk_predator_19/mask"/>
+        <texture path="units/mods/masks/msk_predator_19/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_20/msk_predator_20"/>
+        <df_nm path="units/mods/masks/msk_predator_20/mask"/>
+        <texture path="units/mods/masks/msk_predator_20/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_21/msk_predator_21"/>
+        <df_nm path="units/mods/masks/msk_predator_21/mask"/>
+        <texture path="units/mods/masks/msk_predator_21/il"/>
+
+        <unit_mat path="units/mods/masks/msk_predator_22/msk_predator_22"/>
+        <df_nm path="units/mods/masks/msk_predator_22/mask"/>
+        <texture path="units/mods/masks/msk_predator_22/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_22_extra/msk_predator_22_extra"/>
+        <df_nm path="units/mods/masks/msk_predator_22_extra/mask"/>
+        <df_nm path="units/mods/masks/msk_predator_22_extra/base"/>
+        <texture path="units/mods/masks/msk_predator_22_extra/il"/>
+
+
+        <unit_mat path="units/mods/masks/msk_predator_23/msk_predator_23"/>
+        <df_nm path="units/mods/masks/msk_predator_23/mask"/>
+        <texture path="units/mods/masks/msk_predator_23/il"/>
+
+        <unit_mat path="units/mods/masks/msk_owfl_gasmask/msk_owfl_gasmask"/>
+        <df_nm path="units/mods/masks/msk_owfl_gasmask/mask"/>
+        <texture path="units/mods/masks/msk_owfl_gasmask/glass_op"/>
+
+
+        <unit_mat path="units/mods/masks/msk_samurai_predator/msk_samurai_predator"/>
+        <df_nm path="units/mods/masks/msk_samurai_predator/mask"/>
+        <df_nm path="units/mods/masks/msk_samurai_predator/base"/>
+        <texture path="units/mods/masks/msk_samurai_predator/il"/>
+
+
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_maskless"/>   
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_wretch"/>     
+
+
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_01"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_02"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_03"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_04"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_05"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_06"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_07"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_08"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_09"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_10"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_11"/>            
+
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_12"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_13"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_14"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_15"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_16"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_17"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_18"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_19"/>            
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_20"/>             
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_21"/>             
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_22"/>             
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_22_extra"/>             
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_23"/>             
+
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/owfl_gasmask"/>             
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/samurai_predator"/>       
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_mr_black"/>             
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_detox"/>             
+
+
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_kawaii"/>                              
+    </AddFiles>
+</table>

@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged" orientation_object="rp_wpn_fps_bow_arblast_b_steel" />
+	<animations>
+		<animation_group name="recoil">
+			<object name="a_root" enabled="true" />
+			<object name="a_l_1" enabled="true" />
+			<object name="a_l_2" enabled="true" />
+			<object name="a_l_3" enabled="true" />
+			<object name="a_r_1" enabled="true" />
+			<object name="a_r_2" enabled="true" />
+			<object name="a_r_3" enabled="true" />
+			<object name="a_knock" enabled="true" />
+		</animation_group>
+	</animations>
+	<graphics>
+	<graphic_group name="weapon_group" enabled="true" culling_object="c_block">
+		<object name="g_bow" enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

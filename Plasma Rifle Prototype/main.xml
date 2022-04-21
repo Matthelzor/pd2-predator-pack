@@ -1,0 +1,141 @@
+<mod name="Plasma Rifle Prototype" min_lib_ver="4">
+	<AssetUpdates id="-1" version="1.01" provider="modworkshop"/>
+	<GlobalValue id="plasmaprotomod" color="Color(0.8, 0.1, 0.1)"/>
+	<Localization directory="loc" default="english.txt"/>
+	<WeaponMod id="wpn_fps_ass_plasmaproto_barrel" based_on="wpn_fps_ass_akm_b_standard" wpn_pts="wpn_fps_ass_plasmaproto" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_ass_plasmaproto_mag" based_on="wpn_fps_smg_mp5_m_drum" wpn_pts="wpn_fps_ass_plasmaproto" hidden="true" ver="2">
+		<animations reload="reload" reload_not_empty="reload_not_empty"/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_ass_plasmaproto_ironsights" based_on="wpn_fps_ass_vhs_o_standard" wpn_pts="wpn_fps_ass_plasmaproto" hidden="true" ver="2">
+		<stance_mod>
+			<wpn_fps_ass_plasmaproto translation="0 0 -0.33"/>
+		</stance_mod>
+		<override>
+			<wpn_fps_ass_plasmaproto_rearsight_folded unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" third_unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+		</override>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_ass_plasmaproto_rearsight_folded" based_on="wpn_fps_ass_akm_body_upperreceiver" wpn_pts="wpn_fps_ass_plasmaproto" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_ass_plasmaproto_rec" based_on="wpn_fps_m4_lower_reciever" wpn_pts="wpn_fps_ass_plasmaproto" hidden="true" ver="2">
+		<animations fire="recoil" fire_steelsight="recoil" reload="reload" reload_not_empty="reload_not_empty"/>
+		<adds>
+			<value_node value="wpn_fps_ass_plasmaproto_rearsight_folded"/>
+		</adds>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_ass_plasmaproto_riser" based_on="wpn_fps_ass_akm_body_upperreceiver" wpn_pts="wpn_fps_ass_plasmaproto" hidden="true" ver="2"/>
+	<Weapon unlock_level="55">
+		<weapon id="plasmaproto" based_on="m16" weapon_hold="plasmaproto" CLIP_AMMO_MAX="25" NR_CLIPS_MAX="3" ammo_pickup="8" muzzleflash="effects/mods/weapons/plasmaproto/muzzle_plasma" shell_ejection="effects/payday2/particles/weapons/shells/shell_empty" global_value="plasmaprotomod">
+			<stats damage="160" spread="21" spread_moving="21" recoil="11" concealment="2" suppression="4"/>
+			<fire_mode_data fire_rate="0.1"/>
+			<kick>
+				<standing>
+					<value_node value="1.2"/>
+					<value_node value="1.0"/>
+					<value_node value="-1.4"/>
+					<value_node value="1.2"/>
+				</standing>
+				<crouching>
+					<value_node value="1.2"/>
+					<value_node value="1.0"/>
+					<value_node value="-1.4"/>
+					<value_node value="1.2"/>
+				</crouching>
+				<steelsight>
+					<value_node value="1.1"/>
+					<value_node value="0.9"/>
+					<value_node value="-1.2"/>
+					<value_node value="1.2"/>
+				</steelsight>
+			</kick>
+			<damage_falloff optimal_distance="1000" optimal_range="1000" near_falloff="500" far_falloff="100" near_multiplier="1" far_multiplier="0.75"/>
+			<sounds fire="plasmaproto_fire" fire_single="plasmaproto_fire" stop_fire="false" use_fix="true"/>
+			<timers reload_not_empty="2.0" reload_empty="2.5" unequip="0.5" equip="0.6"/>
+		</weapon>
+		<factory id="wpn_fps_ass_plasmaproto" unit="units/mods/weapons/wpn_fps_ass_plasmaproto/wpn_fps_ass_plasmaproto">
+			<animations reload="reload" reload_not_empty="reload_not_empty"/>
+			<adds/>
+			<override/>
+			<default_blueprint>
+				<value_node value="wpn_fps_ass_plasmaproto_barrel"/>
+				<value_node value="wpn_fps_ass_plasmaproto_mag"/>
+				<value_node value="wpn_fps_ass_plasmaproto_ironsights"/>
+				<value_node value="wpn_fps_ass_plasmaproto_rec"/>
+			</default_blueprint>
+			<uses_parts>
+				<value_node value="wpn_fps_ass_plasmaproto_barrel"/>
+				<value_node value="wpn_fps_ass_plasmaproto_mag"/>
+				<value_node value="wpn_fps_ass_plasmaproto_ironsights"/>
+				<value_node value="wpn_fps_ass_plasmaproto_rec"/>
+
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/>
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/>
+				<value_node value="wpn_fps_upg_fl_ass_peq15"/>
+				<value_node value="wpn_fps_upg_fl_ass_laser"/>
+				<value_node value="wpn_fps_upg_fl_ass_utg"/>
+				<value_node value="wpn_fps_upg_i_singlefire"/>
+				<value_node value="wpn_fps_upg_i_autofire"/>
+				<value_node value="wpn_fps_upg_o_45rds"/>
+				<value_node value="wpn_fps_upg_o_45rds_v2"/>
+				<value_node value="wpn_fps_upg_o_45steel"/>
+				<value_node value="wpn_fps_upg_o_specter"/>
+				<value_node value="wpn_fps_upg_o_aimpoint"/>
+				<value_node value="wpn_fps_upg_o_docter"/>
+				<value_node value="wpn_fps_upg_o_eotech"/>
+				<value_node value="wpn_fps_upg_o_t1micro"/>
+				<value_node value="wpn_fps_upg_o_acog"/>
+				<value_node value="wpn_fps_upg_o_cmore"/>
+				<value_node value="wpn_fps_upg_o_aimpoint_2"/>
+				<value_node value="wpn_fps_upg_o_eotech_xps"/>
+				<value_node value="wpn_fps_upg_o_reflex"/>
+				<value_node value="wpn_fps_upg_o_rx01"/>
+				<value_node value="wpn_fps_upg_o_rx30"/>
+				<value_node value="wpn_fps_upg_o_cs"/>
+				<value_node value="wpn_fps_upg_o_spot"/>
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/>
+				<value_node value="wpn_fps_upg_o_bmg"/>
+				<value_node value="wpn_fps_upg_o_uh"/>
+				<value_node value="wpn_fps_upg_o_fc1"/>
+				<value_node value="wpn_fps_upg_o_sig"/>
+				<value_node value="wpn_fps_upg_o_tf90"/>
+				<value_node value="wpn_fps_upg_o_poe"/>
+			</uses_parts>
+		</factory>
+		<stance>
+			<standard>
+				<shoulders rotation="0 -0 0 -1" translation="0.471 -2.066 -1.191"/>
+			</standard>
+			<crouched>
+				<shoulders rotation="0 -0.0436281 0 -0.999048" translation="0.471 -4.066 -4.191"/>
+			</crouched>
+			<steelsight>
+				<shoulders rotation="0 -0 0 -1" translation="-10.546 -20.934 0.285"/>
+			</steelsight>
+		</stance>
+	</Weapon>
+	<Sounds directory="assets\sounds">
+		<sound id="plasmaproto_fire1" path="plasmaproto_regular_var1.ogg" prefix="regular"/>
+		<sound id="plasmaproto_fire2" path="plasmaproto_regular_var2.ogg" prefix="regular"/>
+		<sound id="plasmaproto_fire3" path="plasmaproto_regular_var3.ogg" prefix="regular"/>
+		<sound id="plasmaproto_fire4" path="plasmaproto_regular_var4.ogg" prefix="regular"/>
+		<sound id="plasmaproto_fire5" path="plasmaproto_regular_var5.ogg" prefix="regular"/>
+		<random id="plasmaproto_fire">
+			<sound id="plasmaproto_fire1" prefix="regular"/>
+			<sound id="plasmaproto_fire2" prefix="regular"/>
+			<sound id="plasmaproto_fire3" prefix="regular"/>
+			<sound id="plasmaproto_fire4" prefix="regular"/>
+			<sound id="plasmaproto_fire5" prefix="regular"/>
+		</random>
+		<sound id="plasmaproto_charging" path="plasmaproto_reload_charging.ogg" prefix="first"/>
+		<sound id="plasmaproto_charging_empty" path="plasmaproto_reload_charging_empty.ogg" prefix="first"/>
+		<sound id="plasmaproto_charged" path="plasmaproto_reload_charged.ogg" prefix="first"/>
+		<sound id="plasmaproto_steamsmoke" path="plasmaproto_reload_steamsmoke.ogg" prefix="first"/>
+	</Sounds>
+	<AddFiles directory="assets" auto_generate="true"/>
+	<Hooks directory="hooks">
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+	</Hooks>
+</mod>

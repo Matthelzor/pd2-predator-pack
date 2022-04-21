@@ -1,0 +1,11 @@
+<dynamic_object>
+	<diesel orientation_object="rp_wpn_fps_ass_plasmaproto"/>
+	<animations>
+		<animation_group name="reload">
+			<object name="anim_mag_reload" enabled="true"/>
+		</animation_group>
+		<animation_group name="reload_not_empty">
+			<object name="anim_mag_tact_reload" enabled="true"/>
+		</animation_group>
+	</animations>
+</dynamic_object>

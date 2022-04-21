@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mtr_pspear" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_mel_pspear/pspear_df"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_mel_pspear/pspear_nm"/>
+	</material>
+</materials>

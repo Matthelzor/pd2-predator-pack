@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/masks/msk_predator_mr_black/msk_predator_mr_black" orientation_object="rp_predator_mr_black" />
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

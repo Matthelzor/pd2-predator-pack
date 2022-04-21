@@ -1,0 +1,11 @@
+<materials version="3">
+
+    <material name="mtr_pkat" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_mel_pkat/pkat_df" />
+        <self_illumination_texture file="units/mods/weapons/wpn_mel_pkat/pkat_il" />
+        <bump_normal_texture file="units/mods/weapons/wpn_mel_pkat/pkat_nm" />        
+        <variable type="scalar" name="il_bloom" value="40"/>
+        <variable type="scalar" name="il_multiplier" value="reddot"/>    
+    </material>
+
+</materials>

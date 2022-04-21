@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_pclub" materials="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub" />
+    <graphics>
+        <object enabled="true" name="g_pclub" />
+    </graphics>
+</dynamic_object>

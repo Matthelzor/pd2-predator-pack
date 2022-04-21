@@ -1,0 +1,5 @@
+{
+	"bm_w_plasmaproto" : "Plasma Rifle Prototype",
+
+	"menu_l_global_value_plasmaprotomod" : "This is a Predator Pack item!"
+}

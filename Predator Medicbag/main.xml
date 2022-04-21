@@ -1,0 +1,7 @@
+<table name="Predator Medicbag">
+
+	<Hooks directory="hooks">
+        <hook file="menumanager.lua" source_file="lib/managers/menumanager"/>
+	</Hooks>
+
+</table>

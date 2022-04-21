@@ -1,0 +1,33 @@
+<table name="Predator Wristblades" image="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/predator_wristblades">
+	<Localization directory="localization" default="english.json"/>
+
+	<GlobalValue id="predator_mod" color="Color(1.1, 3.0, 0.1)"/>
+
+    <Melee id="predator_wristblades" info_id="bm_melee_predator_wristblades_info" based_on="brass_knuckles" unit="units/mods/weapons/wpn_fps_mel_predator_wristblades/wpn_fps_mel_predator_wristblades" expire_t="0.7" repeat_expire_t="0.5" texture_bundle_folder="mods" dlc="predator_wristblades" global_value="predator_mod">
+		<dot_data type="poison">
+			<custom_data dot_length="1" hurt_animation_chance="0.7" dot_trigger_chance="85" dot_tick_period="0.5" ></custom_data>
+		</dot_data>    	
+		<stats min_damage="20" max_damage="50" charge_time="2" min_damage_effect="1" max_damage_effect="1" range="200" concealment="29" type="sharp"/>
+		<sounds equip="wp_predator_wristblades_equip_it" charge="wp_predator_wristblades_charge_it" hit_air="wp_predator_wristblades_swoosh_it" hit_gen="wp_predator_wristblades_hit_it" hit_body="wp_predator_wristblades_kill_it"/>
+	</Melee>
+	<Sounds directory="assets\sounds">
+        <sound id="wp_predator_wristblades_equip_it" path="equip.ogg" prefix="first"/>
+        <sound id="wp_predator_wristblades_charge_it" path="charge.ogg" prefix="first"/>
+        <sound id="wp_predator_wristblades_swoosh_it" path="swing.ogg" prefix="first"/>
+        <sound id="wp_predator_wristblades_hit_it" path="hit.ogg" prefix="first"/>
+        <sound id="wp_predator_wristblades_kill_it" path="hit_body.ogg" prefix="first"/>
+	</Sounds>
+
+
+    <AddFiles directory="assets">
+
+										 <!-- Predator Daggers -->
+
+        <unit_mat path="units/mods/weapons/wpn_fps_mel_predator_wristblades/wpn_fps_mel_predator_wristblades"/>
+        <df_nm path="units/mods/weapons/wpn_fps_mel_predator_wristblades/textures/wristblades"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/predator_wristblades"/>
+
+										 <!-- Predator Daggers -->
+
+	</AddFiles>
+</table>

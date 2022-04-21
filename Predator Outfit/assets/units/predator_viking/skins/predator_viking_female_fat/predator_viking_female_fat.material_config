@@ -1,0 +1,32 @@
+<materials version="3" group="inf3_acc_t800">
+    <material name="mtr_body" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:DOUBLE_SIDED:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE:RL_PLAYERS:SIMPLE_TINT:SKINNED_3WEIGHTS">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <opacity_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_op"/>     
+        <variable value="0.1" type="scalar" name="alpha_ref"/>
+        <variable value="0.56692916154861 0.14673461019993 0.10893934220076" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+        <variable value="1 1 1" type="vector3" name="tint_color"/>    
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mtr_body_lod1" version="2">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mtr_head" version="2">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mtr_head_lod1" version="2">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>            
+</materials>

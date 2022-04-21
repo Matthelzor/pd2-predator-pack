@@ -1,0 +1,4 @@
+{
+	"bm_w_predator_spear_crossbow" : "Predator Spear Crossbow",
+  	"menu_l_global_value_predator_mod" : "This is a Predator Pack Item!"
+}

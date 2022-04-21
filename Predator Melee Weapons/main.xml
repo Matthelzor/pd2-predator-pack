@@ -1,0 +1,114 @@
+<table name="Predator Melee Weapons">
+    <Localization directory="Localization" default="english.txt">
+    </Localization>
+    <GlobalValue id="predator_mod" color="Color(5.0, 0.1, 1.0)"/>
+	
+	
+    <Melee id="pbaxe" based_on="beardy" unit="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
+		<stats min_damage="25" max_damage="45" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="28"/>
+	</melee>
+	
+	<Melee id="pkat" based_on="sandsteel" unit="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" > 
+		<stats min_damage="20" max_damage="27.5" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="29"/>
+        <fire_dot_data dot_trigger_chance="97" dot_damage="2" dot_length="5.1" dot_trigger_max_distance="3000" dot_tick_period="0.5"/>        
+	</melee>
+	
+	<Melee id="pclub" based_on="tomahawk" unit="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
+		<stats min_damage="20" max_damage="15" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="30"/>
+	</melee>
+	
+	<Melee id="peld" based_on="great" unit="units/mods/weapons/wpn_mel_peld/wpn_mel_peld" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
+		<stats min_damage="20" max_damage="30" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="29"/>
+	</melee>
+	
+	<Melee id="pspear" based_on="freedom" unit="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
+		<stats min_damage="15" max_damage="25" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="325" concealment="28"/>
+	</melee>
+	
+	<Melee id="psick" based_on="morning" unit="units/mods/weapons/wpn_mel_psick/wpn_mel_psick" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
+		<stats min_damage="15" max_damage="25" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="30"/>
+        <dot_data type="poison">
+            <custom_data dot_length="1" hurt_animation_chance="0.7"></custom_data>
+        </dot_data>        
+	</melee>
+    
+    <AddFiles directory="assets">
+      
+	    <!-- Predator City Hunter Combi Stick -->
+        <cooked_physics path="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear"/>
+        <model path="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear"/>
+        <object path="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear"/>
+        <unit path="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear"/>
+        <material_config path="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear"/>
+		<material_config path="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear_thq"/>
+
+        <texture path="units/mods/weapons/wpn_mel_pspear/pspear_df"/>
+        <texture path="units/mods/weapons/wpn_mel_pspear/pspear_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/pspear"/>
+	   
+	   <!-- Predator Elder Sword -->
+        <cooked_physics path="units/mods/weapons/wpn_mel_peld/wpn_mel_peld"/>
+        <model path="units/mods/weapons/wpn_mel_peld/wpn_mel_peld"/>
+        <object path="units/mods/weapons/wpn_mel_peld/wpn_mel_peld"/>
+        <unit path="units/mods/weapons/wpn_mel_peld/wpn_mel_peld"/>
+        <material_config path="units/mods/weapons/wpn_mel_peld/wpn_mel_peld"/>
+		<material_config path="units/mods/weapons/wpn_mel_peld/wpn_mel_peld_thq"/>
+
+        <texture path="units/mods/weapons/wpn_mel_peld/peld_df"/>
+        <texture path="units/mods/weapons/wpn_mel_peld/peld_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/peld"/>
+		
+		<!-- Predator Sickle -->
+        <cooked_physics path="units/mods/weapons/wpn_mel_psick/wpn_mel_psick"/>
+        <model path="units/mods/weapons/wpn_mel_psick/wpn_mel_psick"/>
+        <object path="units/mods/weapons/wpn_mel_psick/wpn_mel_psick"/>
+        <unit path="units/mods/weapons/wpn_mel_psick/wpn_mel_psick"/>
+        <material_config path="units/mods/weapons/wpn_mel_psick/wpn_mel_psick"/>
+		<material_config path="units/mods/weapons/wpn_mel_psick/wpn_mel_psick_thq"/>
+
+        <texture path="units/mods/weapons/wpn_mel_psick/psick_df"/>
+        <texture path="units/mods/weapons/wpn_mel_psick/psick_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/psick"/>
+	  
+	  <!-- Predator War Club -->
+        <cooked_physics path="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub"/>
+        <model path="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub"/>
+        <object path="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub"/>
+        <unit path="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub"/>
+        <material_config path="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub"/>
+		<material_config path="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub_thq"/>
+
+        <texture path="units/mods/weapons/wpn_mel_pclub/pclub_df"/>
+        <texture path="units/mods/weapons/wpn_mel_pclub/pclub_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/pclub"/>
+	  
+	  <!-- Predator Katana -->
+        <cooked_physics path="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat"/>
+        <model path="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat"/>
+        <object path="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat"/>
+        <unit path="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat"/>
+        <material_config path="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat"/>
+		<material_config path="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat_thq"/>
+
+        <effect path="units/mods/weapons/wpn_mel_pkat/fire"/>
+
+        <texture path="units/mods/weapons/wpn_mel_pkat/pkat_df"/>
+		<texture path="units/mods/weapons/wpn_mel_pkat/pkat_il"/>
+        <texture path="units/mods/weapons/wpn_mel_pkat/pkat_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/pkat"/>
+	 
+	 <!-- Predator Battle Axe -->
+        <cooked_physics path="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe"/>
+        <model path="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe"/>
+        <object path="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe"/>
+        <unit path="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe"/>
+        <material_config path="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe"/>
+		<material_config path="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe_thq"/>
+
+        <texture path="units/mods/weapons/wpn_mel_pbaxe/pbaxe_df"/>
+		<texture path="units/mods/weapons/wpn_mel_pbaxe/pbaxe_il"/>
+        <texture path="units/mods/weapons/wpn_mel_pbaxe/pbaxe_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/pbaxe"/>
+
+    </AddFiles>
+</table>

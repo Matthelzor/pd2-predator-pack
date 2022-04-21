@@ -1,0 +1,10 @@
+<table name="Predator Tripmines">
+	<AddFiles>
+		<texture path="units/payday2/equipment/gen_equipment_tripmine/tripmine_gsma"/>
+		<object path="units/payday2/equipment/gen_equipment_tripmine/gen_equipment_tripmine"/>
+	</AddFiles>
+	<Hooks directory="hooks">
+		<hook file="tripminebase.lua" source_file="lib/units/weapons/trip_mine/tripminebase"/>
+        <hook file="menumanager.lua" source_file="lib/managers/menumanager"/>		
+	</Hooks>
+</table>

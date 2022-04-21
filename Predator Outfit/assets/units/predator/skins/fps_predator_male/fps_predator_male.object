@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/predator/skins/fps_predator_male/fps_predator_male" orientation_object="root_point"/>
+	<graphics>
+		<graphic_group culling_object="c_block" enabled="true" name="suit">
+			<object enabled="true" name="g_body"/>
+			<object enabled="true" name="g_body_lod1"/>
+			<object enabled="false" name="g_head_lod1"/>
+			<object enabled="false" name="g_head"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

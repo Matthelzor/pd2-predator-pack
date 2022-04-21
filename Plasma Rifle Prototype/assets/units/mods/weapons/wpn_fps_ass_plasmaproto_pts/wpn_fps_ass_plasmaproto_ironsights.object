@@ -1,0 +1,7 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/wpn_fps_ass_plasmaproto_ironsights" orientation_object="rp_plasmaproto"/>
+	<graphics>
+		<object name="g_ironsight_front" enabled="true"/>
+		<object name="g_ironsight_rear" enabled="true"/>
+	</graphics>
+</dynamic_object>

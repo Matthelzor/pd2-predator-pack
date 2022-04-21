@@ -1,0 +1,39 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/wpn_fps_ass_plasmaproto_rec" orientation_object="rp_plasmaproto"/>
+	<animations>
+		<animation_group name="recoil">
+			<object name="anim_door_lf_recoil" enabled="true"/>
+			<object name="anim_door_lr_recoil" enabled="true"/>
+			<object name="anim_door_rf_recoil" enabled="true"/>
+			<object name="anim_door_rr_recoil" enabled="true"/>
+			<object name="anim_effect_recoil" enabled="true"/>
+		</animation_group>
+		<animation_group name="reload">
+			<object name="anim_display_reload" enabled="true"/>
+			<object name="anim_door_lf_reload" enabled="true"/>
+			<object name="anim_door_lr_reload" enabled="true"/>
+			<object name="anim_door_rf_reload" enabled="true"/>
+			<object name="anim_door_rr_reload" enabled="true"/>
+		</animation_group>
+		<animation_group name="reload_not_empty">
+			<object name="anim_display_tact_reload" enabled="true"/>
+			<object name="anim_door_lf_tact_reload" enabled="true"/>
+			<object name="anim_door_lr_tact_reload" enabled="true"/>
+			<object name="anim_door_rf_tact_reload" enabled="true"/>
+			<object name="anim_door_rr_tact_reload" enabled="true"/>
+		</animation_group>
+	</animations>
+	<graphics>
+		<object name="g_barrel" enabled="true"/>
+		<object name="g_display" enabled="true"/>
+		<object name="g_door_lf" enabled="true"/>
+		<object name="g_door_lr" enabled="true"/>
+		<object name="g_door_rf" enabled="true"/>
+		<object name="g_door_rr" enabled="true"/>
+		<object name="g_rec" enabled="true"/>
+		<object name="g_rec_inside" enabled="true"/>
+		<object name="g_rec_recoil_effect" enabled="true"/>
+		<object name="g_safety" enabled="true"/>
+		<object name="g_trigger" enabled="true"/>
+	</graphics>
+</dynamic_object>

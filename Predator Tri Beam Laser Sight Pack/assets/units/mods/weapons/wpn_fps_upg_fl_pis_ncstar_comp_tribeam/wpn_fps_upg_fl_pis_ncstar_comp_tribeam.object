@@ -1,0 +1,10 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_upg_fl_pis_ncstar_comp_tribeam/wpn_fps_upg_fl_pis_ncstar_comp_tribeam" orientation_object="rp_ncstar_comp"/>
+	<graphics>
+		<object name="g_indicator" enabled="false"/>
+		<object name="g_laser_1" enabled="false"/>
+		<object name="g_laser_2" enabled="false"/>
+		<object name="g_laser_3" enabled="false"/>
+		<object name="g_ncstar_comp_light" enabled="true"/>
+	</graphics>
+</dynamic_object>

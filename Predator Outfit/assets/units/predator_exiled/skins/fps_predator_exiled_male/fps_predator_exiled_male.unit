@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<unit slot="1" type="inf3">
+	<object file="units/predator_exiled/skins/fps_predator_exiled_male/fps_predator_exiled_male"/>
+	<dependencies/>
+	<extensions>
+		<extension class="ScriptUnitData" name="unit_data"/>
+	</extensions>
+</unit>

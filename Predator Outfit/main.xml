@@ -1,0 +1,512 @@
+<table name="Predator Outfit Pack" image="guis/dlcs/predator/textures/pd2/blackmarket/icons/player_styles/predator">
+	<Localization directory="localization" default="english.json"/>
+
+	<GlobalValue id="predator_mod" color="Color(5.1, 0.0, 0.1)"/>
+
+	<PlayerStyle id="predator" unit="units/predator/skins/fps_predator_male/fps_predator_male" third_unit="units/predator/skins/predator_male_average/predator_male_average" exclude_glove_adapter="true" default_gloves="postmoto" texture_bundle_folder="predator" global_value="predator_mod">
+		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+
+		<characters>
+			<bodhi		third_unit="units/predator/skins/predator_male_bodhi/predator_male_bodhi"/>
+			<chains		third_unit="units/predator/skins/predator_male_average/predator_male_average"/>
+			<female_1	third_unit="units/predator/skins/predator_female_average/predator_female_average"/>
+			<bonnie		third_unit="units/predator/skins/predator_female_fat/predator_female_fat"/>
+			<dallas		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<dragon		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<dragan		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<old_hoxton	third_unit="units/predator/skins/predator_male_big/predator_male_big"/>			
+			<hoxton		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>			
+			<wolf		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>			
+			<joy		third_unit="units/predator/skins/predator_female_average/predator_female_average"/>
+			<max		third_unit="units/predator/skins/predator_male_sangres/predator_male_sangres"/>
+			<wild		third_unit="units/predator/skins/predator_male_sangres/predator_male_sangres"/>
+			<jacket		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<jowi		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<chico		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<jimmy		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<sokol		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<sydney		third_unit="units/predator/skins/predator_female_average/predator_female_average"/>
+			<myh		third_unit="units/predator/skins/predator_male_big/predator_male_big"/>
+			<ecp_female	third_unit="units/predator/skins/predator_female_average/predator_female_average"/>
+			<ecp_male	third_unit="units/predator/skins/predator_male_fat/predator_male_fat"/>						
+		</characters>
+	</PlayerStyle>
+
+
+	<PlayerStyle id="predator_samurai" unit="units/predator_samurai/skins/fps_predator_samurai_male/fps_predator_samurai_male" third_unit="units/predator_samurai/skins/predator_samurai_male_average/predator_samurai_male_average" exclude_glove_adapter="true" default_gloves="postmoto" texture_bundle_folder="predator_samurai" global_value="predator_mod">
+		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+
+		<characters>
+			<bodhi		third_unit="units/predator_samurai/skins/predator_samurai_male_bodhi/predator_samurai_male_bodhi"/>
+			<chains		third_unit="units/predator_samurai/skins/predator_samurai_male_average/predator_samurai_male_average"/>
+			<female_1	third_unit="units/predator_samurai/skins/predator_samurai_female_average/predator_samurai_female_average"/>
+			<bonnie		third_unit="units/predator_samurai/skins/predator_samurai_female_fat/predator_samurai_female_fat"/>
+			<dallas		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<dragon		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<dragan		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<old_hoxton	third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>			
+			<hoxton		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>			
+			<wolf		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>			
+			<joy		third_unit="units/predator_samurai/skins/predator_samurai_female_average/predator_samurai_female_average"/>
+			<max		third_unit="units/predator_samurai/skins/predator_samurai_male_sangres/predator_samurai_male_sangres"/>
+			<wild		third_unit="units/predator_samurai/skins/predator_samurai_male_sangres/predator_samurai_male_sangres"/>
+			<jacket		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<jowi		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<chico		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<jimmy		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<sokol		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<sydney		third_unit="units/predator_samurai/skins/predator_samurai_female_average/predator_samurai_female_average"/>
+			<myh		third_unit="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+			<ecp_female	third_unit="units/predator_samurai/skins/predator_samurai_female_average/predator_samurai_female_average"/>
+			<ecp_male	third_unit="units/predator_samurai/skins/predator_samurai_male_fat/predator_samurai_male_fat"/>						
+		</characters>
+	</PlayerStyle>
+
+
+
+	<PlayerStyle id="predator_exiled" unit="units/predator_exiled/skins/fps_predator_exiled_male/fps_predator_exiled_male" third_unit="units/predator_exiled/skins/predator_exiled_male_average/predator_exiled_male_average" exclude_glove_adapter="true" default_gloves="postmoto" texture_bundle_folder="predator_exiled" global_value="predator_mod">
+		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+
+		<characters>
+			<bodhi		third_unit="units/predator_exiled/skins/predator_exiled_male_bodhi/predator_exiled_male_bodhi"/>
+			<chains		third_unit="units/predator_exiled/skins/predator_exiled_male_average/predator_exiled_male_average"/>
+			<female_1	third_unit="units/predator_exiled/skins/predator_exiled_female_average/predator_exiled_female_average"/>
+			<bonnie		third_unit="units/predator_exiled/skins/predator_exiled_female_fat/predator_exiled_female_fat"/>
+			<dallas		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<dragon		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<dragan		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<old_hoxton	third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>			
+			<hoxton		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>			
+			<wolf		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>			
+			<joy		third_unit="units/predator_exiled/skins/predator_exiled_female_average/predator_exiled_female_average"/>
+			<max		third_unit="units/predator_exiled/skins/predator_exiled_male_sangres/predator_exiled_male_sangres"/>
+			<wild		third_unit="units/predator_exiled/skins/predator_exiled_male_sangres/predator_exiled_male_sangres"/>
+			<jacket		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<jowi		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<chico		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<jimmy		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<sokol		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<sydney		third_unit="units/predator_exiled/skins/predator_exiled_female_average/predator_exiled_female_average"/>
+			<myh		third_unit="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+			<ecp_female	third_unit="units/predator_exiled/skins/predator_exiled_female_average/predator_exiled_female_average"/>
+			<ecp_male	third_unit="units/predator_exiled/skins/predator_exiled_male_fat/predator_exiled_male_fat"/>						
+		</characters>
+	</PlayerStyle>
+
+
+	<PlayerStyle id="predator_alpha" unit="units/predator_alpha/skins/fps_predator_alpha_male/fps_predator_alpha_male" third_unit="units/predator_alpha/skins/predator_alpha_male_average/predator_alpha_male_average" exclude_glove_adapter="true" default_gloves="postmoto" texture_bundle_folder="predator_alpha" global_value="predator_mod">
+		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+
+		<characters>
+			<bodhi		third_unit="units/predator_alpha/skins/predator_alpha_male_bodhi/predator_alpha_male_bodhi"/>
+			<chains		third_unit="units/predator_alpha/skins/predator_alpha_male_average/predator_alpha_male_average"/>
+			<female_1	third_unit="units/predator_alpha/skins/predator_alpha_female_average/predator_alpha_female_average"/>
+			<bonnie		third_unit="units/predator_alpha/skins/predator_alpha_female_fat/predator_alpha_female_fat"/>
+			<dallas		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<dragon		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<dragan		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<old_hoxton	third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>			
+			<hoxton		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>			
+			<wolf		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>			
+			<joy		third_unit="units/predator_alpha/skins/predator_alpha_female_average/predator_alpha_female_average"/>
+			<max		third_unit="units/predator_alpha/skins/predator_alpha_male_sangres/predator_alpha_male_sangres"/>
+			<wild		third_unit="units/predator_alpha/skins/predator_alpha_male_sangres/predator_alpha_male_sangres"/>
+			<jacket		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<jowi		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<chico		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<jimmy		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<sokol		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<sydney		third_unit="units/predator_alpha/skins/predator_alpha_female_average/predator_alpha_female_average"/>
+			<myh		third_unit="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+			<ecp_female	third_unit="units/predator_alpha/skins/predator_alpha_female_average/predator_alpha_female_average"/>
+			<ecp_male	third_unit="units/predator_alpha/skins/predator_alpha_male_fat/predator_alpha_male_fat"/>						
+		</characters>
+	</PlayerStyle>
+
+
+	<PlayerStyle id="predator_viking" unit="units/predator_viking/skins/fps_predator_viking_male/fps_predator_viking_male" third_unit="units/predator_viking/skins/predator_viking_male_average/predator_viking_male_average" exclude_glove_adapter="true" default_gloves="postmoto" texture_bundle_folder="predator_viking" global_value="predator_mod">
+		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+
+		<characters>
+			<bodhi		third_unit="units/predator_viking/skins/predator_viking_male_bodhi/predator_viking_male_bodhi"/>
+			<chains		third_unit="units/predator_viking/skins/predator_viking_male_average/predator_viking_male_average"/>
+			<female_1	third_unit="units/predator_viking/skins/predator_viking_female_average/predator_viking_female_average"/>
+			<bonnie		third_unit="units/predator_viking/skins/predator_viking_female_fat/predator_viking_female_fat"/>
+			<dallas		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<dragon		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<dragan		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<old_hoxton	third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>			
+			<hoxton		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>			
+			<wolf		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>			
+			<joy		third_unit="units/predator_viking/skins/predator_viking_female_average/predator_viking_female_average"/>
+			<max		third_unit="units/predator_viking/skins/predator_viking_male_sangres/predator_viking_male_sangres"/>
+			<wild		third_unit="units/predator_viking/skins/predator_viking_male_sangres/predator_viking_male_sangres"/>
+			<jacket		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<jowi		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<chico		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<jimmy		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<sokol		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<sydney		third_unit="units/predator_viking/skins/predator_viking_female_average/predator_viking_female_average"/>
+			<myh		third_unit="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+			<ecp_female	third_unit="units/predator_viking/skins/predator_viking_female_average/predator_viking_female_average"/>
+			<ecp_male	third_unit="units/predator_viking/skins/predator_viking_male_fat/predator_viking_male_fat"/>						
+		</characters>
+	</PlayerStyle>
+
+
+
+
+
+	<PlayerStyle id="owfl_operative" unit="units/owfl_operative/skins/fps_owfl_operative_male/fps_owfl_operative_male" skip_mask_on_sequence="false" third_unit="units/owfl_operative/skins/owfl_operative_male_average/owfl_operative_male_average" default_gloves="heist_default" texture_bundle_folder="owfl_operative" global_value="predator_mod" >
+		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true"/>
+		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true"/>
+
+		<characters>
+			<bodhi		third_unit="units/owfl_operative/skins/owfl_operative_male_bodhi/owfl_operative_male_bodhi" />
+			<chains		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<female_1	third_unit="units/owfl_operative/skins/owfl_operative_clover/owfl_operative_clover" />
+			<bonnie		third_unit="units/owfl_operative/skins/owfl_operative_female_fat/owfl_operative_female_fat" />
+			<dallas		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<dragon		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<dragan		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<old_hoxton	third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />			
+			<hoxton		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />			
+			<wolf		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />			
+			<joy		third_unit="units/owfl_operative/skins/owfl_operative_joy/owfl_operative_joy" />
+			<max		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<wild		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<jacket		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<jowi		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<chico		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<jimmy		third_unit="units/owfl_operative/skins/owfl_operative_jimmy/owfl_operative_jimmy" />
+			<sokol		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<sydney		third_unit="units/owfl_operative/skins/owfl_operative_sydney/owfl_operative_sydney" />
+			<myh		third_unit="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big" />
+			<ecp_female	third_unit="units/owfl_operative/skins/owfl_operative_hila/owfl_operative_hila" />
+			<ecp_male	third_unit="units/owfl_operative/skins/owfl_operative_male_fat/owfl_operative_male_fat" />						
+		</characters>
+	</PlayerStyle>
+
+
+
+		<PlayerStyleVariant id="white" player_style_id="owfl_operative" texture_bundle_folder="mods" global_value="predator_mod" material="units/owfl_operative/skins/shared_materials/owfl_operative_fps_white" third_material="units/owfl_operative/skins/shared_materials/owfl_operative_white" desc_id="bm_suit_var_owfl_operative_white_desc">
+		</PlayerStyleVariant>
+
+		<PlayerStyleVariant id="red" player_style_id="owfl_operative" texture_bundle_folder="mods" global_value="predator_mod" material="units/owfl_operative/skins/shared_materials/owfl_operative_fps_red" third_material="units/owfl_operative/skins/shared_materials/owfl_operative_red" desc_id="bm_suit_var_owfl_operative_red_desc">
+		</PlayerStyleVariant>
+
+		<PlayerStyleVariant id="blue" player_style_id="owfl_operative" texture_bundle_folder="mods" global_value="predator_mod" material="units/owfl_operative/skins/shared_materials/owfl_operative_fps_blue" third_material="units/owfl_operative/skins/shared_materials/owfl_operative_blue" desc_id="bm_suit_var_owfl_operative_blue_desc">
+		</PlayerStyleVariant>
+
+		<PlayerStyleVariant id="green" player_style_id="owfl_operative" texture_bundle_folder="mods" global_value="predator_mod" material="units/owfl_operative/skins/shared_materials/owfl_operative_fps_green" third_material="units/owfl_operative/skins/shared_materials/owfl_operative_green" desc_id="bm_suit_var_owfl_operative_green_desc">
+		</PlayerStyleVariant>
+
+
+		<PlayerStyleVariant id="yellow" player_style_id="owfl_operative" texture_bundle_folder="mods" global_value="predator_mod" material="units/owfl_operative/skins/shared_materials/owfl_operative_fps_yellow" third_material="units/owfl_operative/skins/shared_materials/owfl_operative_yellow" desc_id="bm_suit_var_owfl_operative_yellow_desc">
+		</PlayerStyleVariant>
+
+
+		<PlayerStyleVariant id="black_gold" player_style_id="owfl_operative" texture_bundle_folder="mods" global_value="predator_mod" material="units/owfl_operative/skins/shared_materials/owfl_operative_fps_black_gold" third_material="units/owfl_operative/skins/shared_materials/owfl_operative_black_gold" desc_id="bm_suit_var_owfl_operative_black_gold_desc">
+		</PlayerStyleVariant>
+
+		<PlayerStyleVariant id="yautjian_blood" player_style_id="owfl_operative" texture_bundle_folder="mods" global_value="predator_mod" material="units/owfl_operative/skins/shared_materials/owfl_operative_fps_yautjian_blood" third_material="units/owfl_operative/skins/shared_materials/owfl_operative_yautjian_blood" desc_id="bm_suit_var_owfl_operative_yautjian_blood_desc">
+		</PlayerStyleVariant>
+
+
+
+    <AddFiles directory="assets">
+    	<texture path="guis/dlcs/predator/textures/pd2/blackmarket/icons/player_styles/predator"/>
+
+    	<df_nm path="units/predator/skins/predator_male_fat/body"/>
+    	<texture path="units/predator/skins/predator_male_fat/body_op"/>
+
+		<unit_mat path="units/predator/skins/predator_male_bodhi/predator_male_bodhi"/>
+		<cooked_physics path="units/predator/skins/predator_male_bodhi/predator_male_bodhi"/>
+
+		<unit_mat path="units/predator/skins/predator_male_sangres/predator_male_sangres"/>
+		<cooked_physics path="units/predator/skins/predator_male_sangres/predator_male_sangres"/>
+
+		<unit_mat path="units/predator/skins/predator_male_fat/predator_male_fat"/>
+		<cooked_physics path="units/predator/skins/predator_male_fat/predator_male_fat"/>
+
+		<unit_mat path="units/predator/skins/predator_male_big/predator_male_big"/>
+		<cooked_physics path="units/predator/skins/predator_male_big/predator_male_big"/>
+
+		<unit_mat path="units/predator/skins/predator_male_average/predator_male_average"/>
+		<cooked_physics path="units/predator/skins/predator_male_average/predator_male_average"/>
+
+		<unit_mat path="units/predator/skins/predator_female_fat/predator_female_fat"/>
+		<cooked_physics path="units/predator/skins/predator_female_fat/predator_female_fat"/>
+
+		<unit_mat path="units/predator/skins/predator_female_average/predator_female_average"/>
+		<cooked_physics path="units/predator/skins/predator_female_average/predator_female_average"/>
+
+		<unit_mat path="units/predator/skins/fps_predator_male/fps_predator_male"/>
+		<cooked_physics path="units/predator/skins/fps_predator_male/fps_predator_male"/>
+		
+
+
+
+
+
+
+    	<texture path="guis/dlcs/predator_samurai/textures/pd2/blackmarket/icons/player_styles/predator_samurai"/>
+
+    	<df_nm path="units/predator_samurai/skins/predator_samurai_male_fat/body"/>
+    	<texture path="units/predator_samurai/skins/predator_samurai_male_fat/body_op"/>
+    	<texture path="units/predator_samurai/skins/predator_samurai_male_fat/body_il"/>
+
+		<unit_mat path="units/predator_samurai/skins/predator_samurai_male_bodhi/predator_samurai_male_bodhi"/>
+		<cooked_physics path="units/predator_samurai/skins/predator_samurai_male_bodhi/predator_samurai_male_bodhi"/>
+
+		<unit_mat path="units/predator_samurai/skins/predator_samurai_male_sangres/predator_samurai_male_sangres"/>
+		<cooked_physics path="units/predator_samurai/skins/predator_samurai_male_sangres/predator_samurai_male_sangres"/>
+
+		<unit_mat path="units/predator_samurai/skins/predator_samurai_male_fat/predator_samurai_male_fat"/>
+		<cooked_physics path="units/predator_samurai/skins/predator_samurai_male_fat/predator_samurai_male_fat"/>
+
+		<unit_mat path="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+		<cooked_physics path="units/predator_samurai/skins/predator_samurai_male_big/predator_samurai_male_big"/>
+
+		<unit_mat path="units/predator_samurai/skins/predator_samurai_male_average/predator_samurai_male_average"/>
+		<cooked_physics path="units/predator_samurai/skins/predator_samurai_male_average/predator_samurai_male_average"/>
+
+		<unit_mat path="units/predator_samurai/skins/predator_samurai_female_fat/predator_samurai_female_fat"/>
+		<cooked_physics path="units/predator_samurai/skins/predator_samurai_female_fat/predator_samurai_female_fat"/>
+
+		<unit_mat path="units/predator_samurai/skins/predator_samurai_female_average/predator_samurai_female_average"/>
+		<cooked_physics path="units/predator_samurai/skins/predator_samurai_female_average/predator_samurai_female_average"/>
+
+		<unit_mat path="units/predator_samurai/skins/fps_predator_samurai_male/fps_predator_samurai_male"/>
+		<cooked_physics path="units/predator_samurai/skins/fps_predator_samurai_male/fps_predator_samurai_male"/>
+		
+
+
+
+
+
+
+
+    	<texture path="guis/dlcs/predator_exiled/textures/pd2/blackmarket/icons/player_styles/predator_exiled"/>
+
+    	<df_nm path="units/predator_exiled/skins/predator_exiled_male_fat/body"/>
+    	<texture path="units/predator_exiled/skins/predator_exiled_male_fat/body_op"/>
+    	<texture path="units/predator_exiled/skins/predator_exiled_male_fat/body_il"/>
+
+		<unit_mat path="units/predator_exiled/skins/predator_exiled_male_bodhi/predator_exiled_male_bodhi"/>
+		<cooked_physics path="units/predator_exiled/skins/predator_exiled_male_bodhi/predator_exiled_male_bodhi"/>
+
+		<unit_mat path="units/predator_exiled/skins/predator_exiled_male_sangres/predator_exiled_male_sangres"/>
+		<cooked_physics path="units/predator_exiled/skins/predator_exiled_male_sangres/predator_exiled_male_sangres"/>
+
+		<unit_mat path="units/predator_exiled/skins/predator_exiled_male_fat/predator_exiled_male_fat"/>
+		<cooked_physics path="units/predator_exiled/skins/predator_exiled_male_fat/predator_exiled_male_fat"/>
+
+		<unit_mat path="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+		<cooked_physics path="units/predator_exiled/skins/predator_exiled_male_big/predator_exiled_male_big"/>
+
+		<unit_mat path="units/predator_exiled/skins/predator_exiled_male_average/predator_exiled_male_average"/>
+		<cooked_physics path="units/predator_exiled/skins/predator_exiled_male_average/predator_exiled_male_average"/>
+
+		<unit_mat path="units/predator_exiled/skins/predator_exiled_female_fat/predator_exiled_female_fat"/>
+		<cooked_physics path="units/predator_exiled/skins/predator_exiled_female_fat/predator_exiled_female_fat"/>
+
+		<unit_mat path="units/predator_exiled/skins/predator_exiled_female_average/predator_exiled_female_average"/>
+		<cooked_physics path="units/predator_exiled/skins/predator_exiled_female_average/predator_exiled_female_average"/>
+
+		<unit_mat path="units/predator_exiled/skins/fps_predator_exiled_male/fps_predator_exiled_male"/>
+		<cooked_physics path="units/predator_exiled/skins/fps_predator_exiled_male/fps_predator_exiled_male"/>
+
+
+
+
+    	<texture path="guis/dlcs/predator_alpha/textures/pd2/blackmarket/icons/player_styles/predator_alpha"/>
+
+    	<df_nm path="units/predator_alpha/skins/predator_alpha_male_fat/body"/>
+
+		<unit_mat path="units/predator_alpha/skins/predator_alpha_male_bodhi/predator_alpha_male_bodhi"/>
+		<cooked_physics path="units/predator_alpha/skins/predator_alpha_male_bodhi/predator_alpha_male_bodhi"/>
+
+		<unit_mat path="units/predator_alpha/skins/predator_alpha_male_sangres/predator_alpha_male_sangres"/>
+		<cooked_physics path="units/predator_alpha/skins/predator_alpha_male_sangres/predator_alpha_male_sangres"/>
+
+		<unit_mat path="units/predator_alpha/skins/predator_alpha_male_fat/predator_alpha_male_fat"/>
+		<cooked_physics path="units/predator_alpha/skins/predator_alpha_male_fat/predator_alpha_male_fat"/>
+
+		<unit_mat path="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+		<cooked_physics path="units/predator_alpha/skins/predator_alpha_male_big/predator_alpha_male_big"/>
+
+		<unit_mat path="units/predator_alpha/skins/predator_alpha_male_average/predator_alpha_male_average"/>
+		<cooked_physics path="units/predator_alpha/skins/predator_alpha_male_average/predator_alpha_male_average"/>
+
+		<unit_mat path="units/predator_alpha/skins/predator_alpha_female_fat/predator_alpha_female_fat"/>
+		<cooked_physics path="units/predator_alpha/skins/predator_alpha_female_fat/predator_alpha_female_fat"/>
+
+		<unit_mat path="units/predator_alpha/skins/predator_alpha_female_average/predator_alpha_female_average"/>
+		<cooked_physics path="units/predator_alpha/skins/predator_alpha_female_average/predator_alpha_female_average"/>
+
+		<unit_mat path="units/predator_alpha/skins/fps_predator_alpha_male/fps_predator_alpha_male"/>
+		<cooked_physics path="units/predator_alpha/skins/fps_predator_alpha_male/fps_predator_alpha_male"/>
+		
+
+
+    	<texture path="guis/dlcs/predator_viking/textures/pd2/blackmarket/icons/player_styles/predator_viking"/>
+
+    	<df_nm path="units/predator_viking/skins/predator_viking_male_fat/body"/>
+    	<texture path="units/predator_viking/skins/predator_viking_male_fat/body_op"/>
+
+		<unit_mat path="units/predator_viking/skins/predator_viking_male_bodhi/predator_viking_male_bodhi"/>
+		<cooked_physics path="units/predator_viking/skins/predator_viking_male_bodhi/predator_viking_male_bodhi"/>
+
+		<unit_mat path="units/predator_viking/skins/predator_viking_male_sangres/predator_viking_male_sangres"/>
+		<cooked_physics path="units/predator_viking/skins/predator_viking_male_sangres/predator_viking_male_sangres"/>
+
+		<unit_mat path="units/predator_viking/skins/predator_viking_male_fat/predator_viking_male_fat"/>
+		<cooked_physics path="units/predator_viking/skins/predator_viking_male_fat/predator_viking_male_fat"/>
+
+		<unit_mat path="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+		<cooked_physics path="units/predator_viking/skins/predator_viking_male_big/predator_viking_male_big"/>
+
+		<unit_mat path="units/predator_viking/skins/predator_viking_male_average/predator_viking_male_average"/>
+		<cooked_physics path="units/predator_viking/skins/predator_viking_male_average/predator_viking_male_average"/>
+
+		<unit_mat path="units/predator_viking/skins/predator_viking_female_fat/predator_viking_female_fat"/>
+		<cooked_physics path="units/predator_viking/skins/predator_viking_female_fat/predator_viking_female_fat"/>
+
+		<unit_mat path="units/predator_viking/skins/predator_viking_female_average/predator_viking_female_average"/>
+		<cooked_physics path="units/predator_viking/skins/predator_viking_female_average/predator_viking_female_average"/>
+
+		<unit_mat path="units/predator_viking/skins/fps_predator_viking_male/fps_predator_viking_male"/>
+		<cooked_physics path="units/predator_viking/skins/fps_predator_viking_male/fps_predator_viking_male"/>
+
+
+
+
+
+
+    	<texture path="guis/dlcs/owfl_operative/textures/pd2/blackmarket/icons/player_styles/owfl_operative"/>
+    	<texture path="guis/dlcs/owfl_operative/textures/pd2/blackmarket/icons/player_styles/owfl_operative_default"/>
+
+    	<df_nm path="units/owfl_operative/skins/owfl_operative_male_fat/body"/>
+    	<df_nm path="units/owfl_operative/skins/owfl_operative_male_fat/pistol"/>
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_male_bodhi/owfl_operative_male_bodhi"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_male_bodhi/owfl_operative_male_bodhi"/>
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_male_sangres/owfl_operative_male_sangres"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_male_sangres/owfl_operative_male_sangres"/>
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_male_fat/owfl_operative_male_fat"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_male_fat/owfl_operative_male_fat"/>		
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_male_big/owfl_operative_male_big"/>
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_male_average/owfl_operative_male_average"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_male_average/owfl_operative_male_average"/>
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_female_fat/owfl_operative_female_fat"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_female_fat/owfl_operative_female_fat"/>
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_female_average/owfl_operative_female_average"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_female_average/owfl_operative_female_average"/>
+
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_clover/owfl_operative_clover"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_clover/owfl_operative_clover"/>
+
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_jimmy/owfl_operative_jimmy"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_jimmy/owfl_operative_jimmy"/>
+
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_sydney/owfl_operative_sydney"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_sydney/owfl_operative_sydney"/>
+
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_joy/owfl_operative_joy"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_joy/owfl_operative_joy"/>
+
+
+		<unit_mat path="units/owfl_operative/skins/owfl_operative_hila/owfl_operative_hila"/>
+		<cooked_physics path="units/owfl_operative/skins/owfl_operative_hila/owfl_operative_hila"/>
+
+
+		<unit_mat path="units/owfl_operative/skins/fps_owfl_operative_male/fps_owfl_operative_male"/>
+		<cooked_physics path="units/owfl_operative/skins/fps_owfl_operative_male/fps_owfl_operative_male"/>
+
+
+
+		<!-- VARIANTS FOR OWFL OPERATOR OUTFIT, DO NOT TOUCH -->
+
+		<!-- DEFAULT -->
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative"/>	
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_default"/>	
+
+		<df_nm path="units/owfl_operative/skins/shared_textures/pistol_flame"/>	
+		<df_nm path="units/owfl_operative/skins/shared_textures/pistol_ice"/>	
+		<df_nm path="units/owfl_operative/skins/shared_textures/pistol_rich"/>	
+
+
+
+		<!-- WINTER SOLDIER VARIANT  -->	
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_white"/>
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_fps_white"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_white"/>	
+		<texture path="units/owfl_operative/skins/shared_textures/white_df"/>		   	
+
+
+		<!-- RED VARIANT  -->	
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_red"/>
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_fps_red"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_red"/>	
+		<texture path="units/owfl_operative/skins/shared_textures/red_df"/>		   	
+
+
+		<!-- BLUE VARIANT  -->	
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_blue"/>
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_fps_blue"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_blue"/>	
+		<texture path="units/owfl_operative/skins/shared_textures/blue_df"/>		   	
+
+
+		<!-- GREEN VARIANT -->	
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_green"/>
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_fps_green"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_green"/>	
+		<texture path="units/owfl_operative/skins/shared_textures/green_df"/>		   	
+
+
+		<!-- YELLOW VARIANT -->	
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_yellow"/>
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_fps_yellow"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_yellow"/>	
+		<texture path="units/owfl_operative/skins/shared_textures/yellow_df"/>		   		
+
+
+		<!-- BLACK GOLD VARIANT -->	
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_black_gold"/>
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_fps_black_gold"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_black_gold"/>	
+		<texture path="units/owfl_operative/skins/shared_textures/black_gold_df"/>		   	
+
+
+		<!-- YAUTJAN BLOOD VARIANT -->	
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_yautjian_blood"/>
+		<material_config path="units/owfl_operative/skins/shared_materials/owfl_operative_fps_yautjian_blood"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/owfl_operative_yautjian_blood"/>	
+		<texture path="units/owfl_operative/skins/shared_textures/yautjian_blood_df"/>		   	
+		<texture path="units/owfl_operative/skins/shared_textures/yautjian_blood_il"/>		   	
+
+
+
+		<!-- VARIANTS FOR OWFL OPERATOR OUTFIT, DO NOT TOUCH -->
+
+	</AddFiles>
+</table>

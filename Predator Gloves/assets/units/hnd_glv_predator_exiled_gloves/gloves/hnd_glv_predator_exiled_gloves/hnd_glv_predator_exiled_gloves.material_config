@@ -1,0 +1,7 @@
+<materials version="3" group="hnd_glv_kidswool">
+    <material render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_gloves" version="2">
+		<diffuse_texture file="units/hnd_glv_predator_exiled_gloves/gloves/hnd_glv_predator_exiled_gloves/gloves_df"/>
+		<bump_normal_texture file="units/hnd_glv_predator_exiled_gloves/gloves/hnd_glv_predator_exiled_gloves/gloves_nm"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:SKINNED_1WEIGHT"/>
+</materials>

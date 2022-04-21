@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<tweaks>
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_subset">
+		<search>
+			<xml/>
+		</search>
+		<target mode="attach">
+			<anim name="hhpc_idle"   				file="anims/fps/hhpc/hhpc_idle" blend_set="all"/>
+			<anim name="hhpc_recoil" 				file="anims/fps/hhpc/hhpc_recoil" blend_set="all"/>
+			<anim name="hhpc_recoil_steelsight"		file="anims/fps/hhpc/hhpc_recoil_steelsight" blend_set="all"/>
+			<anim name="hhpc_equip" 				file="anims/fps/baka/baka_equip" blend_set="all"/>
+			<anim name="hhpc_unequip" 				file="anims/fps/baka/baka_unequip" blend_set="all"/>
+			<anim name="hhpc_reload" 				file="anims/fps/hhpc/hhpc_reload" blend_set="all"/>
+			<anim name="hhpc_reload_not_empty"		file="anims/fps/hhpc/hhpc_reload" blend_set="all"/>
+			<anim name="hhpc_melee" 				file="anims/fps/baka/baka_melee" blend_set="all"/>
+			<anim name="hhpc_melee_miss" 			file="anims/fps/baka/baka_melee_miss" blend_set="all"/>
+			<anim name="hhpc_use" 					file="anims/fps/baka/baka_use" blend_set="all"/>
+			<anim name="hhpc_sprint_enter" 			file="anims/fps/baka/baka_sprint_enter" blend_set="all"/>
+			<anim name="hhpc_sprint" 				file="anims/fps/baka/baka_sprint" blend_set="all"/>
+			<anim name="hhpc_sprint_exit" 			file="anims/fps/baka/baka_sprint_exit" blend_set="all"/>
+			<anim name="hhpc_com_down_var1"			file="anims/fps/baka/baka_com_var1" blend_set="all"/>
+			<anim name="hhpc_com_stop"				file="anims/fps/baka/baka_com_var5" blend_set="all"/>
+			<anim name="hhpc_com_come"				file="anims/fps/baka/baka_com_var6" blend_set="all"/>
+			<anim name="hhpc_com_point"				file="anims/fps/baka/baka_com_var7" blend_set="all"/>
+			<anim name="hhpc_get_up" 				file="anims/fps/baka/baka_get_up" blend_set="all"/>
+			<anim name="hhpc_gogo" 					file="anims/fps/baka/baka_gogo" blend_set="all"/>
+			<anim name="hhpc_tased" 				file="anims/fps/baka/baka_tased" blend_set="all"/>
+			<anim name="hhpc_tased_boost" 			file="anims/fps/baka/baka_tased_boost" blend_set="all"/>
+			<anim name="hhpc_tased_exit" 			file="anims/fps/baka/baka_tased_exit" blend_set="all"/>
+			<anim name="hhpc_inspect" 				file="anims/fps/baka/baka_inspect" blend_set="all"/>
+		</target>
+	</tweak>
+</tweaks>

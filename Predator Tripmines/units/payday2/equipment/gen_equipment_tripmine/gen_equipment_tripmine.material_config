@@ -1,0 +1,25 @@
+<materials version="3">
+	<material name="tripmine" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/payday2/equipment/gen_equipment_tripmine/tripmine_df"/>
+		<material_texture file="units/payday2/equipment/gen_equipment_tripmine/tripmine_gsma"/>
+		<bump_normal_texture file="units/payday2/equipment/gen_equipment_tripmine/tripmine_nm"/>
+		<reflection_texture type="cubemap" global_texture="current_global_texture"/>
+	</material>
+
+	<material version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:SKINNED_1WEIGHT" name="trip_mine_laser">
+		<variable value="reddot" type="scalar" name="intensity"/>
+		<diffuse_texture file="units/payday2/equipment/gen_equipment_tripmine/trip_mine_alphas_df"/>
+	</material>
+
+	<material version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:SKINNED_1WEIGHT" name="sensor_mine_laser">
+		<variable value="reddot" type="scalar" name="intensity"/>
+		<diffuse_texture file="units/payday2/equipment/gen_equipment_tripmine/trip_mine_alphas_blue_df"/>
+	</material>
+
+	<material name="mtr_outline" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+		<diffuse_texture file="units/white_df" mip="1"/>
+		<variable value="1" type="scalar" name="contour_opacity"/>
+		<variable value="0 1 0" type="vector3" name="contour_color"/>
+		<opacity_texture file="units/transparent_op" mip="1"/>
+	</material>
+</materials>

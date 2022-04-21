@@ -1,0 +1,11 @@
+<table name="Predator Sentry">
+
+	<Hooks directory="hooks">
+        <hook file="menumanager.lua" source_file="lib/managers/menumanager"/>
+	</Hooks>
+
+	<AddFiles>
+		<texture path="units/payday2/equipment/gen_equipment_sentry/battery_df"/>
+		<texture path="units/payday2/equipment/gen_equipment_sentry/battery_nm"/>
+	</AddFiles>
+</table>

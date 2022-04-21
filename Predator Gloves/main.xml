@@ -1,0 +1,82 @@
+<table name="Predator Gloves" image="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_predator_gloves">
+	<Localization directory="localization" default="english.json"/>
+
+	<GlobalValue id="predator_mod" color="Color(5.0, 0.1, 1.0)"/>
+
+
+	<Gloves id="hnd_glv_predator_gloves" unit="units/hnd_glv_predator_gloves/gloves/hnd_glv_predator_gloves/hnd_glv_predator_gloves" third_material="units/hnd_glv_predator_gloves/gloves/hnd_glv_predator_gloves/hnd_glv_predator_gloves_third">
+	</Gloves>
+
+
+
+	<Gloves id="hnd_glv_predator_samurai_gloves" unit="units/hnd_glv_predator_samurai_gloves/gloves/hnd_glv_predator_samurai_gloves/hnd_glv_predator_samurai_gloves" third_material="units/hnd_glv_predator_samurai_gloves/gloves/hnd_glv_predator_samurai_gloves/hnd_glv_predator_samurai_gloves_third">
+	</Gloves>
+
+
+
+	<Gloves id="hnd_glv_predator_exiled_gloves" unit="units/hnd_glv_predator_exiled_gloves/gloves/hnd_glv_predator_exiled_gloves/hnd_glv_predator_exiled_gloves" third_material="units/hnd_glv_predator_exiled_gloves/gloves/hnd_glv_predator_exiled_gloves/hnd_glv_predator_exiled_gloves_third">
+	</Gloves>
+
+
+	<Gloves id="hnd_glv_predator_alpha_gloves" unit="units/hnd_glv_predator_alpha_gloves/gloves/hnd_glv_predator_alpha_gloves/hnd_glv_predator_alpha_gloves" third_material="units/hnd_glv_predator_alpha_gloves/gloves/hnd_glv_predator_alpha_gloves/hnd_glv_predator_alpha_gloves_third">
+	</Gloves>
+
+
+
+	<Gloves id="hnd_glv_predator_viking_gloves" unit="units/hnd_glv_predator_viking_gloves/gloves/hnd_glv_predator_viking_gloves/hnd_glv_predator_viking_gloves" third_material="units/hnd_glv_predator_viking_gloves/gloves/hnd_glv_predator_viking_gloves/hnd_glv_predator_viking_gloves_third">
+	</Gloves>
+
+
+	<Gloves id="hnd_glv_owfl_operator_gloves" unit="units/hnd_glv_owfl_operator_gloves/gloves/hnd_glv_owfl_operator_gloves/hnd_glv_owfl_operator_gloves" third_material="units/hnd_glv_owfl_operator_gloves/gloves/hnd_glv_owfl_operator_gloves/hnd_glv_owfl_operator_gloves_third">
+	</Gloves>
+
+
+    <AddFiles directory="assets">
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_predator_gloves"/>
+		<df_nm path="units/hnd_glv_predator_gloves/gloves/hnd_glv_predator_gloves/gloves"/>
+		
+		<unit_mat path="units/hnd_glv_predator_gloves/gloves/hnd_glv_predator_gloves/hnd_glv_predator_gloves"/>
+		<material_config path="units/hnd_glv_predator_gloves/gloves/hnd_glv_predator_gloves/hnd_glv_predator_gloves_third"/>		
+
+
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_predator_samurai_gloves"/>
+		<df_nm path="units/hnd_glv_predator_samurai_gloves/gloves/hnd_glv_predator_samurai_gloves/gloves"/>
+		
+		<unit_mat path="units/hnd_glv_predator_samurai_gloves/gloves/hnd_glv_predator_samurai_gloves/hnd_glv_predator_samurai_gloves"/>
+		<material_config path="units/hnd_glv_predator_samurai_gloves/gloves/hnd_glv_predator_samurai_gloves/hnd_glv_predator_samurai_gloves_third"/>	
+
+
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_predator_exiled_gloves"/>
+		<df_nm path="units/hnd_glv_predator_exiled_gloves/gloves/hnd_glv_predator_exiled_gloves/gloves"/>
+		
+		<unit_mat path="units/hnd_glv_predator_exiled_gloves/gloves/hnd_glv_predator_exiled_gloves/hnd_glv_predator_exiled_gloves"/>
+		<material_config path="units/hnd_glv_predator_exiled_gloves/gloves/hnd_glv_predator_exiled_gloves/hnd_glv_predator_exiled_gloves_third"/>		
+
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_predator_alpha_gloves"/>
+		<df_nm path="units/hnd_glv_predator_alpha_gloves/gloves/hnd_glv_predator_alpha_gloves/gloves"/>
+		
+		<unit_mat path="units/hnd_glv_predator_alpha_gloves/gloves/hnd_glv_predator_alpha_gloves/hnd_glv_predator_alpha_gloves"/>
+		<material_config path="units/hnd_glv_predator_alpha_gloves/gloves/hnd_glv_predator_alpha_gloves/hnd_glv_predator_alpha_gloves_third"/>		
+		
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_predator_viking_gloves"/>
+		<df_nm path="units/hnd_glv_predator_viking_gloves/gloves/hnd_glv_predator_viking_gloves/gloves"/>
+		
+		<unit_mat path="units/hnd_glv_predator_viking_gloves/gloves/hnd_glv_predator_viking_gloves/hnd_glv_predator_viking_gloves"/>
+		<material_config path="units/hnd_glv_predator_viking_gloves/gloves/hnd_glv_predator_viking_gloves/hnd_glv_predator_viking_gloves_third"/>	
+
+
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_owfl_operator_gloves"/>
+		<df_nm path="units/hnd_glv_owfl_operator_gloves/gloves/hnd_glv_owfl_operator_gloves/gloves"/>
+		
+		<unit_mat path="units/hnd_glv_owfl_operator_gloves/gloves/hnd_glv_owfl_operator_gloves/hnd_glv_owfl_operator_gloves"/>
+		<material_config path="units/hnd_glv_owfl_operator_gloves/gloves/hnd_glv_owfl_operator_gloves/hnd_glv_owfl_operator_gloves_third"/>				
+
+
+	</AddFiles>
+</table>

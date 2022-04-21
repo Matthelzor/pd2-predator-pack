@@ -1,0 +1,9 @@
+<materials version="3" group="weapon_group">
+	<material unique="true" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS:HOLO:VIEW_ANGLE_FALLOFF_OP" name="mat_reticle" version="2">
+		<variable type="scalar" name="intensity" value="reddot"/>
+		<diffuse_texture file="units/mods/weapons/wpn_fps_pis_hhpc_pts/textures/reticle_il"/>
+		<variable type="scalar" name="falloff_exp" value="1000"/>
+		<variable type="vector3" name="holo_target_offset" value="0 10000 0"/>
+		<variable type="vector3" name="holo_reticle_scale" value="0.5 1 20"/>
+	</material>
+</materials>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/hnd_glv_predator_alpha_gloves/gloves/hnd_glv_predator_alpha_gloves/hnd_glv_predator_alpha_gloves" orientation_object="root_point" />
+
+	<graphics>
+		<graphic_group name="character" enabled="true" culling_object="co_box">
+			<object name="g_gloves" enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

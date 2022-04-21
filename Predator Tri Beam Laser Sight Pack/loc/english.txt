@@ -1,0 +1,6 @@
+{
+	"bm_wp_wpn_fps_upg_fl_pinty_combo_tribeam" : "SchaeferOptics Tri-Beam Laser Sight",
+	"bm_wp_wpn_fps_upg_fl_pis_ncstar_comp_tribeam" : "NcSTAR Compact Tri-Beam Laser Sight",
+
+	"menu_l_global_value_predatorlaserpackmod" : "This is a Predator Pack item!"
+}

@@ -1,0 +1,96 @@
+{
+  "menu_l_global_value_predator_mod" : "This is a Predator Pack Item!",
+
+  "bm_msk_predator_detox" : "Detox",
+  "bm_msk_predator_detox_desc" : "Morphine administered.",
+
+  "bm_msk_predator_mr_black" : "Mr. Black",
+  "bm_msk_predator_mr_black_desc" : "Well there he is, presumably stuck in a middle with you.",
+
+  "bm_msk_predator_kawaii" : "Kawaii Phoenix",
+  "bm_msk_predator_kawaii_desc" : "Who knows for what purpose this mask was made... Pink is cool.",
+
+  "bm_msk_predator_maskless" : "Yautjan Predator Face",
+  "bm_msk_predator_maskless_desc" : "''Damn... You are one ugly m**********r.''",
+
+  "bm_msk_predator_wretch" : "Wretch",
+  "bm_msk_predator_wretch_desc" : "Death is upon us.",
+
+  "bm_msk_predator_01" : "Elder",
+  "bm_msk_predator_01_desc" : "Oldest and toughest of the bunch.",
+
+  "bm_msk_predator_02" : "Immortal",
+  "bm_msk_predator_02_desc" : "Your enemies will fear you.",
+
+  "bm_msk_predator_03" : "Nocturne",
+  "bm_msk_predator_03_desc" : "Great for masking, dagger and cloak action.",
+
+  "bm_msk_predator_04" : "Phalanx",
+  "bm_msk_predator_04_desc" : "The Omnipotence of Yautjan Gods.",
+
+  "bm_msk_predator_05" : "Phoenix",
+  "bm_msk_predator_05_desc" : "Sharp and ready to kill.",
+
+  "bm_msk_predator_06" : "Plague",
+  "bm_msk_predator_06_desc" : "Mask up if you don't want to become a victim of the sick.",
+
+  "bm_msk_predator_07" : "Inferno",
+  "bm_msk_predator_07_desc" : "Careful with that fire.",
+
+  "bm_msk_predator_08" : "Prophet",
+  "bm_msk_predator_08_desc" : "Pick your gods wisely.",
+
+  "bm_msk_predator_09" : "Eclipse",
+  "bm_msk_predator_09_desc" : "Sun has Vanished.",
+
+  "bm_msk_predator_10" : "Journeyman",
+  "bm_msk_predator_10_desc" : "The Adventures of the Jungle and Singularity Await.",
+
+  "bm_msk_predator_11" : "Modern Predator",
+  "bm_msk_predator_11_desc" : "Don't let it out of your sight.",
+
+  "bm_msk_predator_12" : "Abyss",
+  "bm_msk_predator_12_desc" : "Darkness will consume you.",
+
+  "bm_msk_predator_13" : "Viking",
+  "bm_msk_predator_13_desc" : "They'll crush you like a bug.",
+
+  "bm_msk_predator_14" : "City Hunter of 97",
+  "bm_msk_predator_14_desc" : "This isn't your typical urban exploration type.",
+
+  "bm_msk_predator_15" : "Alpha Mask",
+  "bm_msk_predator_15_desc" : "WARNING - HIGHLY CONTAGIOUS!!!",
+
+  "bm_msk_predator_16" : "Cyclone",
+  "bm_msk_predator_16_desc" : "Fast and very agile.",
+
+  "bm_msk_predator_17" : "Vapor",
+  "bm_msk_predator_17_desc" : "Smoke them out.",
+
+  "bm_msk_predator_18" : "Vex",
+  "bm_msk_predator_18_desc" : "Vicious and precise.",
+
+  "bm_msk_predator_19" : "Arthos",
+  "bm_msk_predator_19_desc" : "Sharper than your sword.",
+
+  "bm_msk_predator_20" : "Ravager",
+  "bm_msk_predator_20_desc" : "You won't stand a chance.",
+
+  "bm_msk_predator_21" : "Fray",
+  "bm_msk_predator_21_desc" : "Eyes on the target.",
+
+  "bm_msk_predator_22" : "Exiled",
+  "bm_msk_predator_22_desc" : "Abandoned by your own kind, there will be a price to pay.",
+
+  "bm_msk_predator_22_extra" : "Exiled (Repulsive Dreads)",
+  "bm_msk_predator_22_extra_desc" : "Abandoned by your own kind, there will be a price to pay. This one comes out with fully blown dreads of the Yautjan Race. Short term explaination - You look like a Killa!",
+
+  "bm_msk_predator_23" : "Remnant",
+  "bm_msk_predator_23_desc" : "Steel, fire and lasers.",
+
+  "bm_msk_owfl_gasmask" : "O.W.F.L Operative Gas Mask",
+  "bm_msk_owfl_gasmask_desc" : "Hides your identity and lets you live a little longer. Night Vision included.",
+
+  "bm_msk_samurai_predator" : "Samurai",
+  "bm_msk_samurai_predator_desc" : "The Way of the Samurai is Long and Hard..."                      
+}

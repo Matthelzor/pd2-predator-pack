@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_mel_predator_wristblades/wpn_fps_mel_predator_wristblades" orientation_object="rp_predator" />
+    <graphics>
+        <object enabled="true" name="g_predator" />
+    </graphics>
+</dynamic_object>

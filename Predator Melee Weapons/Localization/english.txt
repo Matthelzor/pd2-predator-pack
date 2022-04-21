@@ -1,0 +1,9 @@
+{
+    "bm_melee_pbaxe" : "Predator Battle Axe",
+    "bm_melee_pclub" : "Predator War Club",
+    "bm_melee_pkat" : "Predator Katana",
+	"bm_melee_peld" : "Predator Elder Sword",
+	"bm_melee_psick" : "Predator Alpha Sickle",
+	"bm_melee_pspear" : "Predator City Hunter CombiStick",
+    "menu_l_global_value_predator_mod" : "this is a predator pack item!",
+}

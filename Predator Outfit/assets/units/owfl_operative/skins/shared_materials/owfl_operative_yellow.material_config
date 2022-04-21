@@ -1,0 +1,29 @@
+<materials version="3" group="inf3_acc_t800">
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mtr_body" version="2">
+        <bump_normal_texture    file="units/owfl_operative/skins/owfl_operative_male_fat/body_nm"/>
+        <diffuse_texture        file="units/owfl_operative/skins/shared_textures/yellow_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mtr_body_lod" version="2">
+        <bump_normal_texture    file="units/owfl_operative/skins/owfl_operative_male_fat/pistol_nm"/>
+        <diffuse_texture        file="units/owfl_operative/skins/owfl_operative_male_fat/pistol_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mtr_head" version="2">
+        <bump_normal_texture    file="units/owfl_operative/skins/owfl_operative_male_fat/body_nm"/>
+        <diffuse_texture        file="units/owfl_operative/skins/shared_textures/yellow_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>
+
+    <material render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" unique="true" name="mtr_head_lod" version="2">
+        <bump_normal_texture    file="units/owfl_operative/skins/owfl_operative_male_fat/body_nm"/>
+        <diffuse_texture        file="units/owfl_operative/skins/shared_textures/yellow_df"/>
+        <variable type="vector3" name="contour_color" value="1 1 1"/>
+        <variable type="scalar" name="contour_opacity" value="0"/>
+    </material>            
+</materials>

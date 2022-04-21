@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_pbaxe" materials="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe" />
+    <graphics>
+        <object enabled="true" name="g_pbaxe" />
+    </graphics>
+</dynamic_object>

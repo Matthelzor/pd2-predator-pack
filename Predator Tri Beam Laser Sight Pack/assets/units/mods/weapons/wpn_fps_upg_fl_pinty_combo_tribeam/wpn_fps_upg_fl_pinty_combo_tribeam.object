@@ -1,0 +1,10 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_upg_fl_pinty_combo_tribeam/wpn_fps_upg_fl_pinty_combo_tribeam" orientation_object="rp_pinty_combo"/>
+	<graphics>
+		<object name="g_box" enabled="true"/>
+		<object name="g_indicator" enabled="false"/>
+		<object name="g_laser_1" enabled="false"/>
+		<object name="g_laser_2" enabled="false"/>
+		<object name="g_laser_3" enabled="false"/>
+	</graphics>
+</dynamic_object>

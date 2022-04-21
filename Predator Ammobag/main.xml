@@ -1,0 +1,11 @@
+<table name="Predator Ammobag">
+
+	<Hooks directory="hooks">
+        <hook file="menumanager.lua" source_file="lib/managers/menumanager"/>
+	</Hooks>
+	
+	<AddFiles>
+		<texture path="units/payday2/equipment/gen_equipment_ammobag/gen_equipment_ammobag_gsma"/>
+		<object path="units/payday2/equipment/gen_equipment_ammobag/gen_equipment_ammobag"/>
+	</AddFiles>
+</table>

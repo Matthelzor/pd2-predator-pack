@@ -1,0 +1,21 @@
+{
+	"menu_l_global_value_predator_mod_gloves" : "This is a Predator Pack Item!",
+
+	"bm_gloves_hnd_glv_predator_gloves": "Predator Gloves",
+	"bm_gloves_hnd_glv_predator_gloves_desc" : "'How the hell did you get your hands on these?! Okay, you know what? I don't want to know.",
+
+	"bm_gloves_hnd_glv_predator_samurai_gloves": "Predator Samurai Gloves",
+	"bm_gloves_hnd_glv_predator_samurai_gloves_desc" : "'Ancient, but quite comfy.'",
+
+	"bm_gloves_hnd_glv_predator_exiled_gloves": "Predator Exiled Gloves",
+	"bm_gloves_hnd_glv_predator_exiled_gloves_desc" : "'Welcome to the Jungle.",
+
+	"bm_gloves_hnd_glv_predator_alpha_gloves": "Predator Alpha Gloves",
+	"bm_gloves_hnd_glv_predator_alpha_gloves_desc" : "'You're built to last long in the rain and cold.",
+
+	"bm_gloves_hnd_glv_predator_viking_gloves": "Predator Viking Gloves",
+	"bm_gloves_hnd_glv_predator_viking_gloves_desc" : "'A little bit of Wrath here and there.'",
+
+	"bm_gloves_hnd_glv_owfl_operator_gloves": "O.W.F.L Tactical Gloves",
+	"bm_gloves_hnd_glv_owfl_operator_gloves_desc" : "'Given only to the very few selected O.F.W.L Project Operatives, that includes you.'"
+}

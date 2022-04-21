@@ -1,0 +1,26 @@
+<dynamic_object>
+	<diesel orientation_object="rp_gen_equipment_ammobag" materials="units/payday2/equipment/gen_equipment_ammobag/gen_equipment_ammobag" />
+	<sequence_manager file="units/payday2/equipment/gen_equipment_ammobag/gen_equipment_ammobag" />
+	<bodies>
+		<body name="dynamic" enabled="false" template="dynamic_no_ray" collision_class="bag" collides_with_mover="false" >
+			<object name="rp_gen_equipment_ammobag" />
+			<object name="c_box_1" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<animations>
+		<animation_group name="bag" start_time="0.0666">
+			<object enabled="false" name="a_bag_top" />
+			<object enabled="false" name="a_bag_root" />
+		</animation_group>
+	</animations>
+	<graphics>
+		<object name="g_bag" enabled="true" />
+		<object name="g_outline" enabled="true" />
+		<object name="g_ammo_6" enabled="false" />
+		<object name="g_ammo_5" enabled="false" />
+		<object name="g_ammo_4" enabled="false" />
+		<object name="g_ammo_3" enabled="true" />
+		<object name="g_ammo_2" enabled="true" />
+		<object name="g_ammo_1" enabled="true" />
+	</graphics>
+</dynamic_object>

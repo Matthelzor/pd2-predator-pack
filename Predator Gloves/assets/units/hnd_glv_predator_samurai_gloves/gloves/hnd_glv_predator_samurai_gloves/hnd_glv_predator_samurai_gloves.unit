@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<object file="units/hnd_glv_predator_samurai_gloves/gloves/hnd_glv_predator_samurai_gloves/hnd_glv_predator_samurai_gloves"/>
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="contour" class="ContourExt"/>
+	</extensions>
+</unit>

@@ -1,0 +1,30 @@
+<materials version="3" group="inf3_acc_t800">
+    <material unique="true" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SKINNED_3WEIGHTS" name="mtr_body" version="2">
+        <bump_normal_texture    file="units/predator_exiled/skins/predator_exiled_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_exiled/skins/predator_exiled_male_fat/body_df"/>
+        <self_illumination_texture file="units/predator_exiled/skins/predator_exiled_male_fat/body_il"/>        
+        <variable type="scalar" name="il_bloom" value="9.999000474927"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>                     
+    </material>
+
+    <material name="mtr_body_lod1" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_exiled/skins/predator_exiled_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_exiled/skins/predator_exiled_male_fat/body_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>   
+
+    <material name="mtr_head" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_exiled/skins/predator_exiled_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_exiled/skins/predator_exiled_male_fat/body_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>   
+
+    <material name="mtr_head_lod1" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_exiled/skins/predator_exiled_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_exiled/skins/predator_exiled_male_fat/body_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>            
+</materials>

@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/wpn_fps_ass_plasmaproto_mag" orientation_object="rp_plasmaproto"/>
+	<animations>
+		<animation_group name="reload">
+			<object name="anim_indicator_reload" enabled="true"/>
+			<object name="anim_smoke_reload" enabled="true"/>
+		</animation_group>
+		<animation_group name="reload_not_empty">
+			<object name="anim_indicator_tact_reload" enabled="true"/>
+		</animation_group>
+	</animations>
+	<effects>
+		<effect_spawner name="smoke" enabled="true" object="anim_smoke_reload" effect="effects/mods/weapons/plasmaproto/smoke"/>
+	</effects>
+	<graphics>
+		<object name="g_mag" enabled="true"/>
+		<object name="g_mag_indicator_reload" enabled="true"/>
+	</graphics>
+</dynamic_object>

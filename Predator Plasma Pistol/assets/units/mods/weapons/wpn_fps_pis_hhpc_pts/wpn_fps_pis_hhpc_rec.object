@@ -1,0 +1,18 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_pis_hhpc_pts/wpn_fps_pis_hhpc_rec" orientation_object="rp_hhpc"/>
+	<animations>
+		<animation_group name="reload">
+			<object name="anim_effects_reload" enabled="true"/>
+		</animation_group>
+	</animations>
+	<effects>
+		<effect_spawner name="smoke" enabled="true" object="anim_effects_reload" effect="effects/mods/weapons/hhpc/red_smoke"/>
+		<effect_spawner name="heat" enabled="true" object="anim_effects_reload" effect="effects/mods/weapons/hhpc/heat"/>
+	</effects>
+	<graphics>
+		<object name="g_base" enabled="true"/>
+		<object name="g_frontrec" enabled="true"/>
+		<object name="g_rec" enabled="true"/>
+		<object name="g_shield" enabled="true"/>
+	</graphics>
+</dynamic_object>

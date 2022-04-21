@@ -1,0 +1,9 @@
+<unit type="wpn" slot="1" >
+    <object file="units/mods/weapons/wpn_mel_pbaxe/wpn_mel_pbaxe" />
+	<dependencies>
+		<depends_on bnk="soundbanks/melee_beardy"/>
+	</dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

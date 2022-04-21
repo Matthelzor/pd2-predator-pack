@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/masks/msk_samurai_predator/msk_samurai_predator" orientation_object="rp_samurai_predator" />
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,31 @@
+<table directory="assets">
+	<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/predator_spear_crossbow"/>
+
+	<texture path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/cross_nm"/>
+	<texture path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/cross_df"/>
+	<texture path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/cross_df_cc"/>
+	<texture path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/cross_il"/>	
+
+	<cooked_physics path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged"/>
+	<cooked_physics path="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow"/>
+
+	<model path="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow"/>
+	<model path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged"/>
+
+	<object path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged"/>
+	<object path="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow"/>
+
+	<material_config path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged"/>
+	<material_config path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged_thq"/>
+
+	<material_config path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged_cc"/>
+	<material_config path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged_cc_thq"/>
+
+
+	<unit path="units/mods/weapons/wpn_fps_predator_spear_crossbow_pts/wpn_fps_predator_spear_crossbow_rigged"/>
+	<unit path="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow_npc"/>
+	<unit path="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow"/>
+
+	<material_config path="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow"/>
+	<material_config path="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow_thq"/>
+</table>

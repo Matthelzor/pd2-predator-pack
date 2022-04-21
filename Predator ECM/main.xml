@@ -1,0 +1,6 @@
+<table name="Predator ECM">
+	<Hooks directory="hooks">
+		<hook file="ecmjammerbase.lua" source_file="lib/units/equipment/ecm_jammer/ecmjammerbase"/>
+        <hook file="menumanager.lua" source_file="lib/managers/menumanager"/>
+	</Hooks>
+</table>

@@ -1,0 +1,5 @@
+{
+	"bm_w_hhpc" : "Predator Plasma Pistol",
+
+	"menu_l_global_value_hhpcmod" : "This is a Predator Pack item!"
+}

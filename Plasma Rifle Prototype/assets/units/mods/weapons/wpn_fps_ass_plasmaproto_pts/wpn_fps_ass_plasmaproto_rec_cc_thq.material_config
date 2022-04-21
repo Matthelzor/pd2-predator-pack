@@ -1,0 +1,35 @@
+<materials version="3" group="weapon_group">
+	<material name="mat_plasma-ar_body_01" render_template="generic_customizable:CUBE_ENVIRONMENT_MAPPING:DECAL_STICKER_UV2:DIFFUSE_TEXTURE:GRADIENTMAP:NORMALMAP:PATTERN_GRADIENTMAP:PATTERN_GRADIENTMAP_ANGLE_OFFSET:PATTERN_UV2:WEAR_TEAR_MASKING" unique ="true" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/plasma-ar_body_01_df_cc" mip="1"/>
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/plasma-ar_body_01_nm" mip="1"/>
+		<diffuse_layer1_texture file="units/payday2_cash/safes/default/base_gradient/base_default_df"/>
+		<diffuse_layer2_texture file="units/payday2_cash/safes/default/pattern_gradient/gradient_default_df"/>
+		<diffuse_layer0_texture file="units/payday2_cash/safes/default/pattern/pattern_default_df"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+		<variable value="1 0 1" type="vector3" name="pattern_tweak"/>
+		<variable value="0 0 0" type="vector3" name="pattern_pos"/>
+		<variable value="0" type="scalar" name="wear_tear_value"/>
+		<diffuse_layer3_texture file="units/payday2_cash/safes/default/sticker/sticker_default_df"/>
+		<variable value="1 1 1" type="vector3" name="uv_scale"/>
+		<variable value="0 0 0" type="vector3" name="uv_offset_rot"/>
+		<variable value="0 0 0" type="vector3" name="cubemap_pattern_control"/>
+	</material>
+	<material name="mat_il" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/plasma-ar_body_01_df"/>
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/plasma-ar_body_01_nm"/>
+		<self_illumination_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/plasma-ar_body_01_il"/>
+		<variable type="scalar" name="il_bloom" value="6"/>
+		<variable type="scalar" name="il_multiplier" value="reddot"/>
+	</material>
+	<material name="mat_display" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/display_no_power_df"/>
+		<self_illumination_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/display_no_power_df"/>
+		<variable type="scalar" name="il_bloom" value="2"/>
+		<variable type="scalar" name="il_multiplier" value="reddot"/>
+	</material>
+	<material name="mat_indicator_recoil" render_template="effect:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/textures/rec_indicator_recoil_df"/>
+		<variable value="1.25" type="scalar" name="intensity"/>
+		<variable value="0 -5 0" type="vector3" name="uv0_speed"/>
+	</material>
+</materials>

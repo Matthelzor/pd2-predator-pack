@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/wpn_fps_ass_plasmaproto_riser" orientation_object="rp_plasmaproto"/>
+	<graphics>
+		<object name="g_riser" enabled="true"/>
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,106 @@
+<mod name="Predator Plasma Pistol" color="Color(0.01,0.62,0.98)">
+	<Localization directory="loc" default="english.txt"/>
+	<AssetUpdates id="-1" version="1.01" provider="modworkshop"/>
+	<GlobalValue id="hhpcmod" color="Color(0.8, 0.1, 0.1)"/>
+	<WeaponMod id="wpn_fps_pis_hhpc_barrel" based_on="wpn_fps_pis_sparrow_b_rpl" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_frontdrum" based_on="wpn_fps_bow_ecp_m_casing" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_frontslide" based_on="wpn_fps_pis_sparrow_sl_rpl" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_outerbarrel" based_on="wpn_fps_sho_aa12_dh" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_reardrum" based_on="wpn_fps_upg_m4_g_standard" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_rearslide" based_on="wpn_fps_ass_ching_bolt_standard" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_rec" based_on="wpn_fps_pis_packrat_body_standard" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2">
+		<animations reload="reload" reload_not_empty="reload"/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_sight" based_on="wpn_fps_ass_vhs_o_standard" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" hidden="true" ver="2">
+		<stance_mod>
+			<wpn_fps_pis_hhpc rotation="-0.0113444 -0 -0.00174522 -0.999934" translation="0 0 0"/>
+		</stance_mod>
+		<adds>
+			<value_node value="wpn_fps_pis_hhpc_sight_ads"/>
+		</adds>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_pis_hhpc_sight_ads" based_on="wpn_fps_upg_o_acog_steelsight" wpn_pts="wpn_fps_pis_hhpc" hidden="true" ver="2"/>
+	<Weapon unlock_level="15">
+		<weapon id="hhpc" based_on="new_raging_bull" weapon_hold="hhpc" CLIP_AMMO_MAX="8" NR_CLIPS_MAX="5" ammo_pickup="1" muzzleflash="effects/mods/weapons/hhpc/muzzle_plasma" global_value="hhpcmod">
+			<stats damage="115" spread="24" spread_moving="24" recoil="2" concealment="25" suppression="10"/>
+			<fire_mode_data fire_rate="0.25"/>
+			<stats_modifiers damage="2"/>
+			<damage_falloff optimal_distance="1000" optimal_range="1000" near_falloff="500" far_falloff="100" near_multiplier="1" far_multiplier="0.7"/>
+			<sounds fire="hhpc_fire" fire_single="hhpc_fire" enter_steelsight="hhpc_aim" leave_steelsight="false"/>
+			<timers reload_empty="2" reload_not_empty="2" equip="0.7" unequip="0.5"/>
+		</weapon>
+		<factory id="wpn_fps_pis_hhpc" unit="units/mods/weapons/wpn_fps_pis_hhpc/wpn_fps_pis_hhpc">
+			<animations fire="recoil" fire_steelsight="recoil" reload="reload" reload_not_empty="reload"/>
+			<adds/>
+			<override>
+				<wpn_fps_upg_o_rmr parent="false"/>
+				<wpn_fps_upg_o_rms parent="false"/>
+				<wpn_fps_upg_o_rikt parent="false"/>
+				<wpn_fps_upg_pis_ns_flash a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_medium_slim a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_ass_filter a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_jungle a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_large a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_medium a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_small a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_large_kac a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_medium_gem a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_ipsccomp a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_meatgrinder a_obj="a_ns" parent="barrel"/>
+				<wpn_fps_upg_ns_pis_typhoon a_obj="a_ns" parent="barrel"/>
+			</override>
+			<default_blueprint>
+				<value_node value="wpn_fps_pis_hhpc_barrel"/>
+				<value_node value="wpn_fps_pis_hhpc_frontdrum"/>
+				<value_node value="wpn_fps_pis_hhpc_frontslide"/>
+				<value_node value="wpn_fps_pis_hhpc_outerbarrel"/>
+				<value_node value="wpn_fps_pis_hhpc_reardrum"/>
+				<value_node value="wpn_fps_pis_hhpc_rearslide"/>
+				<value_node value="wpn_fps_pis_hhpc_rec"/>
+				<value_node value="wpn_fps_pis_hhpc_sight"/>
+			</default_blueprint>
+			<uses_parts>
+				<value_node value="wpn_fps_pis_hhpc_barrel"/>
+				<value_node value="wpn_fps_pis_hhpc_frontdrum"/>
+				<value_node value="wpn_fps_pis_hhpc_frontslide"/>
+				<value_node value="wpn_fps_pis_hhpc_outerbarrel"/>
+				<value_node value="wpn_fps_pis_hhpc_reardrum"/>
+				<value_node value="wpn_fps_pis_hhpc_rearslide"/>
+				<value_node value="wpn_fps_pis_hhpc_rec"/>
+				<value_node value="wpn_fps_pis_hhpc_sight"/>
+			</uses_parts>
+		</factory>
+		<stance>
+			<standard>
+				<shoulders rotation="-0.00600737 0.00548587 0.000909496 -0.999967" translation="-2.072 -0.657 2.096"/>
+			</standard>
+			<crouched>
+				<shoulders rotation="-0.00591232 0.0839254 0.000434549 -0.996454" translation="-1.072 -1.657 0.096"/>
+			</crouched>
+			<steelsight>
+				<shoulders rotation="0.0113532 -0.0660365 0.00018495 -0.997753" translation="-2.072 6.657 2.096"/>
+			</steelsight>
+		</stance>
+	</Weapon>
+	<Sounds directory="assets\sounds">
+		<sound id="hhpc_fire1" path="hhpc_regular_var1.ogg" prefix="regular"/>
+		<sound id="hhpc_fire2" path="hhpc_regular_var2.ogg" prefix="regular"/>
+		<random id="hhpc_fire">
+			<sound id="hhpc_fire1" prefix="regular"/>
+			<sound id="hhpc_fire2" prefix="regular"/>
+		</random>
+		<sound id="hhpc_aim" path="hhpc_aim.ogg" prefix="regular"/>
+		<sound id="hhpc_charging" path="hhpc_reload_charging.ogg" prefix="first"/>
+		<sound id="hhpc_drum" path="hhpc_reload_drum.ogg" prefix="first"/>
+		<sound id="hhpc_slideforward" path="hhpc_reload_slideforward.ogg" prefix="first"/>
+	</Sounds>
+	<AddFiles directory="assets" auto_generate="true"/>
+</mod>

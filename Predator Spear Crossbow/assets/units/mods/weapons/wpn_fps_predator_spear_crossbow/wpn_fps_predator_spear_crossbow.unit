@@ -1,0 +1,12 @@
+<unit type="wpn" slot="1">
+	<object file="units/mods/weapons/wpn_fps_predator_spear_crossbow/wpn_fps_predator_spear_crossbow" />
+	<dependencies>
+		<depends_on bnk="soundbanks/weapon_frankish"/>
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="base" class="CrossbowWeaponBase" >
+			<var name="name_id" value="predator_spear_crossbow" />
+		</extension>
+	</extensions>
+</unit>

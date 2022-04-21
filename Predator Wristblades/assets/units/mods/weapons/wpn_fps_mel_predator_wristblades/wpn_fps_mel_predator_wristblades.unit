@@ -1,0 +1,11 @@
+<unit type="wpn" slot="1">
+	<object file="units/mods/weapons/wpn_fps_mel_predator_wristblades/wpn_fps_mel_predator_wristblades" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+        <extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<default_soundsource source="a_soundsource" />
+		<soundsource name="snd" source="a_soundsource" />
+	</sounds>
+</unit>

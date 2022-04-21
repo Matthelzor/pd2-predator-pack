@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_ass_plasmaproto_pts/wpn_fps_ass_plasmaproto_rearsight_folded" orientation_object="rp_plasmaproto"/>
+	<graphics>
+		<object name="g_ironsight_rear_folded" enabled="true"/>
+	</graphics>
+</dynamic_object>

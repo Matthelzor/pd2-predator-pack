@@ -1,0 +1,11 @@
+<mod name="Predator Tri Beam Laser Sight Pack" color="Color(0.01,0.62,0.98)">
+	<Localization directory="loc" default="english.txt"/>
+	<GlobalValue id="predatorlaserpackmod" color="Color(0.8, 0.1, 0.1)"/>
+	<AssetUpdates id="36881" version="1.02" provider="modworkshop"/>
+	<WeaponMod id="wpn_fps_upg_fl_pinty_combo_tribeam" based_on="wpn_fps_upg_fl_ass_smg_sho_peqbox" desc_id="bm_wp_upg_fl_ass_smg_sho_peqbox_desc" inherit_weapons="true" inherit_adds="true" inherit_override="true" inherit_parts_forbids="true" inherit_parts_override="true" global_value="predatorlaserpackmod" ver="2">
+		<stats recoil="2" concealment="-2"/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_fl_pis_ncstar_comp_tribeam" based_on="wpn_fps_upg_fl_pis_crimson" desc_id="bm_wp_upg_fl_crimson_desc" inherit_weapons="true" inherit_adds="true" inherit_override="true" inherit_parts_forbids="true" inherit_parts_override="true" global_value="predatorlaserpackmod" ver="2"/>
+	<AddFiles directory="assets" auto_generate="true"/>
+</mod>

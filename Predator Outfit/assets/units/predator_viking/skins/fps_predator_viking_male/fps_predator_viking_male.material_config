@@ -1,0 +1,29 @@
+<materials version="3" group="inf3_acc_t800">
+    <material name="mtr_body" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>
+
+    <material name="mtr_body_lod1" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>   
+
+    <material name="mtr_head" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>   
+
+    <material name="mtr_head_lod1" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_viking/skins/predator_viking_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_viking/skins/predator_viking_male_fat/body_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>            
+</materials>

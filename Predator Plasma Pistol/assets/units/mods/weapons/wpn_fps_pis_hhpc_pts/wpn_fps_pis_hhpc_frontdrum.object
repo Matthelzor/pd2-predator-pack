@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_pis_hhpc_pts/wpn_fps_pis_hhpc_frontdrum" orientation_object="rp_hhpc"/>
+	<graphics>
+		<object name="g_frontdrum" enabled="true"/>
+	</graphics>
+</dynamic_object>
