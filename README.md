@@ -1,10 +1,9 @@
-# pd2-predator-pack
-Predator Pack is a huge modpack created for PAYDAY 2 that adds a lot of new things to the game in terms of cosmetics, weapons/QoL and many more.
+# PAYDAY 2: Predator Pack - YOU ARE CURRENTLY IN THE MOD_OVERRIDES BRANCH - THE MAIN PORTION OF THE MOD PACK ITSELF.
+[![](https://modworkshop.net/mydownloads/previews/95_1648207400_17310b85f440300cb6696e337a9d3b66.webp)](https://modworkshop.net/mod/36402)
 
-
+Predator Pack is a huge unofficial modpack created for PAYDAY 2 that adds a lot of new things to the game in terms of cosmetics, weapons/QoL and many more. This repo has been created to help us get the best workflow and management on the project.
 
 # This repo has been created by us, the mod developers in order to help us get the best workflow and management on the project without all the hazzle.
-# That way, with the github repo the management on the project will be far more efficient and less time consuming and everyone involved with the project will be able to update it whenever they like without breaking anything!
 
 # There are two branches that this mod uses: mod_overrides and mods
 
