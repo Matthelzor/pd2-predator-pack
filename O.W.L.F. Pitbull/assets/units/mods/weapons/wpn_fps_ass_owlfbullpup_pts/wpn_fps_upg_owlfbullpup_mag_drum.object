@@ -1,0 +1,8 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/wpn_fps_upg_owlfbullpup_mag_drum" orientation_object="rp_owlfbullpup"/>
+	<graphics>
+		<object name="g_bullet_1" enabled="true"/>
+		<object name="g_bullet_2" enabled="true"/>
+		<object name="g_mag_drum" enabled="true"/>
+	</graphics>
+</dynamic_object>

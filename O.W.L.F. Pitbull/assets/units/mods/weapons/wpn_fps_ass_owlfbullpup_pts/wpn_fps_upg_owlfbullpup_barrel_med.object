@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/wpn_fps_upg_owlfbullpup_barrel_med" orientation_object="rp_owlfbullpup"/>
+	<graphics>
+		<object name="g_barrel_med" enabled="true"/>
+	</graphics>
+</dynamic_object>

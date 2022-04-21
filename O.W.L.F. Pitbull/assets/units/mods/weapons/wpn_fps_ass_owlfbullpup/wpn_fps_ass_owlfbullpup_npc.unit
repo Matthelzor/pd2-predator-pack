@@ -1,0 +1,12 @@
+<unit type="static" slot="1">
+	<object file="units/mods/weapons/wpn_fps_ass_owlfbullpup/wpn_fps_ass_owlfbullpup"/>
+	<dependencies>
+		<depends_on bnk="soundbanks/weapon_m16"/>
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="base" class="NewNPCRaycastWeaponBase">
+			<var name="name_id" value="owlfbullpup_crew"/>
+		</extension>
+	</extensions>
+</unit>

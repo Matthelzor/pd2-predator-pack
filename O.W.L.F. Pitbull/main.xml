@@ -1,0 +1,156 @@
+<mod name="O.W.L.F. Pitbull" min_lib_ver="4">
+	<AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
+	<GlobalValue id="owlfbullpupmod"color="Color(0.8, 0.1, 0.1)"/>
+	<Localization directory="loc" default="english.txt"/>
+	<WeaponMod id="wpn_fps_ass_owlfbullpup_barrel" based_on="wpn_fps_ass_akm_b_standard" wpn_pts="wpn_fps_ass_owlfbullpup" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_ass_owlfbullpup_bolt" based_on="wpn_fps_amcar_bolt_standard" wpn_pts="wpn_fps_ass_owlfbullpup" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_ass_owlfbullpup_ironsight" based_on="wpn_fps_ass_vhs_o_standard" wpn_pts="wpn_fps_ass_owlfbullpup" hidden="true" ver="2">
+		<stance_mod>
+			<wpn_fps_ass_owlfbullpup translation="0 -12 1.75"/>
+		</stance_mod>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_ass_owlfbullpup_mag" based_on="wpn_fps_ass_contraband_m_standard" wpn_pts="wpn_fps_ass_owlfbullpup" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_ass_owlfbullpup_muzzlebrake" based_on="wpn_fps_ass_contraband_ns_standard" wpn_pts="wpn_fps_ass_owlfbullpup" hidden="true" ver="2"/>
+
+	<WeaponMod id="wpn_fps_ass_owlfbullpup_rec" based_on="wpn_fps_m4_lower_reciever" wpn_pts="wpn_fps_ass_owlfbullpup" hidden="true" ver="2"/>
+
+
+	<WeaponMod id="wpn_fps_upg_owlfbullpup_barrel_long" based_on="wpn_fps_ass_akm_b_standard" wpn_pts="wpn_fps_ass_owlfbullpup" ver="2">
+		<stats spread="3" recoil="1" concealment="-4"/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_owlfbullpup_barrel_med" based_on="wpn_fps_ass_akm_b_standard" wpn_pts="wpn_fps_ass_owlfbullpup" ver="2">
+		<stats spread="2" concealment="-2"/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_owlfbullpup_mag_drum" based_on="wpn_fps_ass_contraband_m_standard" a_obj="a_m_drum" has_description="true" hidden="true" wpn_pts="wpn_fps_ass_owlfbullpup" ver="2">
+		<stats recoil="1" extra_ammo="15" concealment="-2"/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_owlfbullpup_scope" based_on="wpn_fps_ass_vhs_o_standard" steelsight_visible="false" wpn_pts="wpn_fps_ass_owlfbullpup" ver="2">
+		<stats recoil="1" concealment="-2" zoom="6"/>
+		<stance_mod>
+			<wpn_fps_ass_owlfbullpup translation="0.016 -15 0.605"/>
+		</stance_mod>
+		<adds>
+			<value_node value="wpn_fps_upg_owlfbullpup_scope_ads"/>
+		</adds>
+		<perks>
+			<value_node value="highlight"/>
+			<value_node value="scope"/>
+		</perks>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_owlfbullpup_scope_ads" based_on="wpn_fps_upg_o_acog_steelsight" wpn_pts="wpn_fps_ass_owlfbullpup" hidden="true" ver="2"/>
+	<Weapon unlock_level="39">
+		<weapon id="owlfbullpup" based_on="m16" weapon_hold="owlfbullpup" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3.333333333333333" ammo_pickup="7" shell_ejection="effects/payday2/particles/weapons/shells/shell_empty" global_value="owlfbullpupmod">
+			<stats damage="96" spread="15" spread_moving="15" recoil="17" concealment="22" suppression="8"/>
+			<fire_mode_data fire_rate="0.0833333333333333"/>
+			<kick>
+				<standing>
+					<value_node value="1.2"/>
+					<value_node value="1.0"/>
+					<value_node value="-0.5"/>
+					<value_node value="0.65"/>
+				</standing>
+				<crouching>
+					<value_node value="1.2"/>
+					<value_node value="1.0"/>
+					<value_node value="-0.45"/>
+					<value_node value="0.55"/>
+				</crouching>
+				<steelsight>
+					<value_node value="1.1"/>
+					<value_node value="0.9"/>
+					<value_node value="-0.45"/>
+					<value_node value="0.55"/>
+				</steelsight>
+			</kick>
+			<sounds fire="contraband_fire_single" fire_single="contraband_fire_single" fire_auto="contraband_fire" stop_fire="contraband_stop"/>
+			<timers reload_not_empty="2.1" reload_empty="3.3" unequip="0.5" equip="0.6"/>
+			<animations magazine_empty="false"/>
+		</weapon>
+		<factory id="wpn_fps_ass_owlfbullpup" unit="units/mods/weapons/wpn_fps_ass_owlfbullpup/wpn_fps_ass_owlfbullpup" stock_adapter="wpn_fps_ass_owlfbullpup_stockadapter">
+			<animations fire="recoil" fire_steelsight="recoil" reload="reload" reload_not_empty="reload_not_empty"/>
+			<adds/>
+			<override/>
+			<default_blueprint>
+				<value_node value="wpn_fps_ass_owlfbullpup_barrel"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_bolt"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_ironsight"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_mag"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_muzzlebrake"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_rec"/>
+			</default_blueprint>
+			<uses_parts>
+				<value_node value="wpn_fps_ass_owlfbullpup_barrel"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_bolt"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_ironsight"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_mag"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_muzzlebrake"/>
+				<value_node value="wpn_fps_ass_owlfbullpup_rec"/>
+
+				<value_node value="wpn_fps_upg_owlfbullpup_barrel_long"/>
+				<value_node value="wpn_fps_upg_owlfbullpup_barrel_med"/>
+				<value_node value="wpn_fps_upg_owlfbullpup_mag_drum"/>
+				<value_node value="wpn_fps_upg_owlfbullpup_scope"/>
+
+				<value_node value="wpn_fps_upg_ns_ass_smg_large"/>
+				<value_node value="wpn_fps_upg_ns_ass_smg_medium"/>
+				<value_node value="wpn_fps_upg_ns_ass_smg_small"/>
+				<value_node value="wpn_fps_upg_ns_ass_smg_firepig"/>
+				<value_node value="wpn_fps_upg_ns_ass_smg_stubby"/>
+				<value_node value="wpn_fps_upg_ns_ass_smg_tank"/>
+				<value_node value="wpn_fps_upg_ass_ns_jprifles"/>
+				<value_node value="wpn_fps_upg_ass_ns_linear"/>
+				<value_node value="wpn_fps_upg_ass_ns_surefire"/>
+				<value_node value="wpn_fps_upg_ass_ns_battle"/>
+				<value_node value="wpn_fps_upg_ns_ass_smg_v6"/>
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/>
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/>
+				<value_node value="wpn_fps_upg_fl_ass_peq15"/>
+				<value_node value="wpn_fps_upg_fl_ass_laser"/>
+				<value_node value="wpn_fps_upg_fl_ass_utg"/>
+				<value_node value="wpn_fps_upg_i_singlefire"/>
+				<value_node value="wpn_fps_upg_i_autofire"/>
+				<value_node value="wpn_fps_upg_o_specter"/>
+				<value_node value="wpn_fps_upg_o_aimpoint"/>
+				<value_node value="wpn_fps_upg_o_docter"/>
+				<value_node value="wpn_fps_upg_o_eotech"/>
+				<value_node value="wpn_fps_upg_o_t1micro"/>
+				<value_node value="wpn_fps_upg_o_acog"/>
+				<value_node value="wpn_fps_upg_o_cmore"/>
+				<value_node value="wpn_fps_upg_o_aimpoint_2"/>
+				<value_node value="wpn_fps_upg_o_eotech_xps"/>
+				<value_node value="wpn_fps_upg_o_reflex"/>
+				<value_node value="wpn_fps_upg_o_rx01"/>
+				<value_node value="wpn_fps_upg_o_rx30"/>
+				<value_node value="wpn_fps_upg_o_cs"/>
+				<value_node value="wpn_fps_upg_o_spot"/>
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/>
+				<value_node value="wpn_fps_upg_o_bmg"/>
+				<value_node value="wpn_fps_upg_o_uh"/>
+				<value_node value="wpn_fps_upg_o_fc1"/>
+				<value_node value="wpn_fps_upg_o_sig"/>
+				<value_node value="wpn_fps_upg_o_tf90"/>
+				<value_node value="wpn_fps_upg_o_poe"/>
+			</uses_parts>
+		</factory>
+		<stance>
+			<standard>
+				<shoulders rotation="0 -0 0 -1" translation="-1.628 10.701 -1.955"/>
+			</standard>
+			<crouched>
+				<shoulders rotation="0 -0.0436194 0 -0.999048" translation="-0.628 7.701 -1.955"/>
+			</crouched>
+			<steelsight>
+				<shoulders rotation="0 -0 0 -1" translation="-11.644 17.701 -0.671"/>
+			</steelsight>
+		</stance>
+	</Weapon>
+	<AddFiles directory="assets" auto_generate="true"/>
+</mod>
