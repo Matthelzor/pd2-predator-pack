@@ -9,11 +9,9 @@ Predator Pack is a huge unofficial modpack created for PAYDAY 2 that adds a lot 
 
 For mod_overrides branch: 100% of the files from it go to your mod_overrides folder. this branch is helpful in terms of updating the pack since it's split between two mod categories.
 
-For mods branch: all the files from that branch go to your mods folder.
-
-Example path for both branches: mod_overrides branch: everything from it goes to D:\Steam\steamapps\common\PAYDAY 2\assets\mod_overrides 
-
-mods branch: self explanatory, everything goes to D:\Steam\steamapps\common\PAYDAY 2\mods
+# For mods branch: all the files from that branch go to your mods folder.
+# Example path for both branches: mod_overrides branch: everything from it goes to D:\Steam\steamapps\common\PAYDAY 2\assets\mod_overrides 
+# mods branch: self explanatory, everything goes to D:\Steam\steamapps\common\PAYDAY 2\mods
 
 
 
