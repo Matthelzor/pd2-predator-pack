@@ -6,7 +6,7 @@
 2) Download BeardLib https://modworkshop.net/mod/14924
 
 
-3) Download the mod archive (quick presentation below if you don't know how to do it)
+3) Go to https://github.com/Matthelzor/pd2-predator-pack and download the mod archive (quick presentation below if you don't know how to do it)
 __________________
 ![](https://cdn.discordapp.com/attachments/956530411155120130/967072597038739486/mod_overrides_how_to_download.gif)
 __________________
