@@ -14,8 +14,10 @@
 		<variable value="0 0 0" type="vector3" name="uv_offset_rot"/>
 		<variable value="0 0 0" type="vector3" name="cubemap_pattern_control"/>
 	</material>
-	<material name="mat_bullets" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+	<material name="mat_bullets" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
 		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/textures/bullet_rifle_df"/>
 		<bump_normal_texture file="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/textures/bullet_rifle_nm"/>
+		<material_texture file="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/textures/bullet_rifle_gsma"/>
+		<reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
 	</material>
 </materials>

@@ -3,7 +3,7 @@
 	"bm_wp_wpn_fps_upg_owlfbullpup_barrel_long" : "Long Barrel",
 	"bm_wp_wpn_fps_upg_owlfbullpup_barrel_med" : "Medium Barrel",
 	"bm_wp_wpn_fps_upg_owlfbullpup_mag_drum" : "Drum Magazine",
-	"bm_wp_wpn_fps_upg_owlfbullpup_mag_drum_desc" : "asdf",
+	"bm_wp_wpn_fps_upg_owlfbullpup_mag_drum_desc" : "30% slower tactical reload.\n45% slower empty reload.",
 	"bm_wp_wpn_fps_upg_owlfbullpup_scope" : "O.W.L.F. Assault Scope",
 
 	"menu_l_global_value_owlfbullpupmod" : "This is a Predator Pack item!"

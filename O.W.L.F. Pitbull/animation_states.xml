@@ -61,6 +61,64 @@
 				</keys>
 				<exit name="fps/idle"/>
 			</state>
+
+			<state name="fps/reload/owlfbullpup_drum" type="once" segment="base" speed="1.0">
+				<anim name="owlfbullpup_drum_reload"/>
+				<keys>
+					<key at="trigger" trigger="wp_foley_generic_lever_release" callback="play_sound" class_name="base" param1="wp_foley_generic_lever_release"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_grab" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_grab"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_throw" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_throw"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_take_new" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_take_new"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_in_connect" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_in_connect"/>
+					<key at="trigger" trigger="wp_foley_generic_lever_grab" callback="play_sound" class_name="base" param1="wp_foley_generic_lever_grab"/>
+					<key at="trigger" trigger="wp_foley_generic_lever_pull" callback="play_sound" class_name="base" param1="wp_foley_generic_lever_pull"/>
+					<key at="trigger" trigger="wp_foley_generic_back_in_hand" callback="play_sound" class_name="base" param1="wp_foley_generic_back_in_hand"/>
+					<key at="trigger" trigger="wp_foley_generic_tilt_back" callback="play_sound" class_name="base" param1="wp_ak47_tilt_back"/>
+					<key at="trigger" trigger="wp_foley_generic_tilt" callback="play_sound" class_name="base" param1="wp_ak47_tilt"/>
+					<key at="trigger" trigger="hajk_push_mag_release" callback="play_sound" class_name="base" param1="hajk_push_mag_release"/>
+					<key at="trigger" trigger="contraband_lift_up" callback="play_sound" class_name="base" param1="contraband_lift_up"/>
+					<key at="trigger" trigger="contraband_mag_out" callback="play_sound" class_name="base" param1="contraband_mag_out"/>
+					<key at="trigger" trigger="contraband_mag_fiddle" callback="play_sound" class_name="base" param1="contraband_mag_fiddle"/>
+					<key at="trigger" trigger="contraband_mag_in" callback="play_sound" class_name="base" param1="contraband_mag_in"/>
+					<key at="trigger" trigger="contraband_bolt_release" callback="play_sound" class_name="base" param1="contraband_bolt_release"/>
+					<key at="trigger" trigger="contraband_back_in_hand" callback="play_sound" class_name="base" param1="contraband_back_in_hand"/>
+					<key at="trigger" trigger="arbiter_release_lever" callback="play_sound" class_name="base" param1="arbiter_release_lever"/>				
+					<key at="trigger" trigger="bullet_show" callback="anim_clbk_check_bullet_object" class_name="base"/>
+					<key at="trigger" trigger="wp_clip_generic_ass_left" callback="play_sound" class_name="base" param1="wp_clip_generic_ass_center"/>
+					<key at="trigger" trigger="wp_foley_generic_back_in_hand_soft" callback="play_sound" class_name="base" param1="wp_foley_generic_back_in_hand_soft"/>
+					<key at="trigger" trigger="wp_l85_slap" callback="play_sound" class_name="base" param1="wp_l85_slap"/>
+				</keys>
+				<exit name="fps/idle"/>
+			</state>
+
+			<state name="fps/reload_not_empty/owlfbullpup_drum" type="once" segment="base" speed="1.0">
+				<anim name="owlfbullpup_drum_reload_not_empty"/>
+				<keys>
+					<key at="trigger" trigger="wp_foley_generic_lever_release" callback="play_sound" class_name="base" param1="wp_foley_generic_lever_release"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_grab" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_grab"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_throw" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_throw"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_take_new" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_take_new"/>
+					<key at="trigger" trigger="wp_foley_generic_clip_in_connect" callback="play_sound" class_name="base" param1="wp_foley_generic_clip_in_connect"/>
+					<key at="trigger" trigger="wp_foley_generic_lever_grab" callback="play_sound" class_name="base" param1="wp_foley_generic_lever_grab"/>
+					<key at="trigger" trigger="wp_foley_generic_lever_pull" callback="play_sound" class_name="base" param1="wp_foley_generic_lever_pull"/>
+					<key at="trigger" trigger="wp_foley_generic_back_in_hand" callback="play_sound" class_name="base" param1="wp_foley_generic_back_in_hand"/>
+					<key at="trigger" trigger="wp_foley_generic_tilt_back" callback="play_sound" class_name="base" param1="wp_ak47_tilt_back"/>
+					<key at="trigger" trigger="wp_foley_generic_tilt" callback="play_sound" class_name="base" param1="wp_ak47_tilt"/>
+					<key at="trigger" trigger="hajk_push_mag_release" callback="play_sound" class_name="base" param1="hajk_push_mag_release"/>
+					<key at="trigger" trigger="contraband_lift_up" callback="play_sound" class_name="base" param1="contraband_lift_up"/>
+					<key at="trigger" trigger="contraband_mag_out" callback="play_sound" class_name="base" param1="contraband_mag_out"/>
+					<key at="trigger" trigger="contraband_mag_fiddle" callback="play_sound" class_name="base" param1="contraband_mag_fiddle"/>
+					<key at="trigger" trigger="contraband_mag_in" callback="play_sound" class_name="base" param1="contraband_mag_in"/>
+					<key at="trigger" trigger="contraband_bolt_release" callback="play_sound" class_name="base" param1="contraband_bolt_release"/>
+					<key at="trigger" trigger="contraband_back_in_hand" callback="play_sound" class_name="base" param1="contraband_back_in_hand"/>
+					<key at="trigger" trigger="arbiter_release_lever" callback="play_sound" class_name="base" param1="arbiter_release_lever"/>				
+					<key at="trigger" trigger="bullet_show" callback="anim_clbk_check_bullet_object" class_name="base"/>
+					<key at="trigger" trigger="wp_clip_generic_ass_left" callback="play_sound" class_name="base" param1="wp_clip_generic_ass_left"/>
+					<key at="trigger" trigger="wp_foley_generic_back_in_hand_soft" callback="play_sound" class_name="base" param1="wp_foley_generic_back_in_hand_soft"/>
+					<key at="trigger" trigger="wp_l85_slap" callback="play_sound" class_name="base" param1="wp_l85_slap"/>
+				</keys>
+				<exit name="fps/idle"/>
+			</state>
 		</target>
 	</tweak>
 
@@ -127,6 +185,8 @@
 		<target mode="attach">
 			<to name="reload_owlfbullpup" 						redirect="fps/reload/owlfbullpup"/>
 			<to name="reload_not_empty_owlfbullpup" 			redirect="fps/reload_not_empty/owlfbullpup"/>
+			<to name="reload_owlfbullpup_drum" 						redirect="fps/reload/owlfbullpup_drum"/>
+			<to name="reload_not_empty_owlfbullpup_drum" 			redirect="fps/reload_not_empty/owlfbullpup_drum"/>
 		</target>
 	</tweak>
 

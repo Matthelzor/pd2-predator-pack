@@ -15,7 +15,7 @@
 		<variable value="0 0 0" type="vector3" name="cubemap_pattern_control"/>
 	</material>
 	<material name="mat_il" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
-		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/textures/owlf_ar_body_01_df"/>
+		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/textures/owlf_ar_body_01_il"/>
 		<bump_normal_texture file="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/textures/owlf_ar_body_01_nm"/>
 		<self_illumination_texture file="units/mods/weapons/wpn_fps_ass_owlfbullpup_pts/textures/owlf_ar_body_01_il"/>
 		<variable type="scalar" name="il_bloom" value="2"/>

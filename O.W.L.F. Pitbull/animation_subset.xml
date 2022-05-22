@@ -7,8 +7,8 @@
 		<target mode="attach">
 			<anim name="owlfbullpup_reload" 						file="anims/fps/owlfbullpup/owlfbullpup_reload" blend_set="all"/>
 			<anim name="owlfbullpup_reload_not_empty" 				file="anims/fps/owlfbullpup/owlfbullpup_reload_not_empty" blend_set="all"/>
-			<anim name="owlfbullpup_reload_drum" 					file="anims/fps/owlfbullpup/owlfbullpup_idle" blend_set="all"/>
-			<anim name="owlfbullpup_reload_not_empty_drum" 			file="anims/fps/owlfbullpup/owlfbullpup_idle" blend_set="all"/>
+			<anim name="owlfbullpup_drum_reload" 					file="anims/fps/owlfbullpup/owlfbullpup_drum_reload" blend_set="all"/>
+			<anim name="owlfbullpup_drum_reload_not_empty" 			file="anims/fps/owlfbullpup/owlfbullpup_drum_reload_not_empty" blend_set="all"/>
 			<anim name="owlfbullpup_idle" 							file="anims/fps/owlfbullpup/owlfbullpup_idle" blend_set="all"/>
 			<anim name="owlfbullpup_recoil" 						file="anims/fps/owlfbullpup/owlfbullpup_recoil_enter" blend_set="all"/>
 			<anim name="owlfbullpup_recoil_enter" 					file="anims/fps/owlfbullpup/owlfbullpup_recoil_enter" blend_set="all"/>

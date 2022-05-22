@@ -6,7 +6,7 @@
 	</dependencies>
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData"/>
-		<extension name="base" class="NewRaycastWeaponBase">
+		<extension name="base" class="OWLFBullpupWeaponBase">
 			<var name="name_id" value="owlfbullpup"/>
 		</extension>
 	</extensions>
