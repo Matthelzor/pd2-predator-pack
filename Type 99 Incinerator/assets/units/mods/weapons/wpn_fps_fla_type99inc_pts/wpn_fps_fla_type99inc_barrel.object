@@ -7,9 +7,6 @@
 		<animation_group name="reload">
 			<object name="anim_pilot_reload" enabled="true"/>
 		</animation_group>
-		<animation_group name="recoil">
-			<object name="anim_pilot_recoil" enabled="true"/>
-		</animation_group>
 		<animation_group name="equip">
 			<object name="anim_pilot_equip" enabled="true"/>
 		</animation_group>
