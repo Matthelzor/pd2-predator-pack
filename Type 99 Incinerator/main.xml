@@ -1,0 +1,10 @@
+<mod name="Type 99 Incinerator" min_lib_ver="3.38">
+    <Localization directory="loc" default="english.txt"/>
+	<AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
+	<AddFiles directory="assets" auto_generate="true"/>
+	<Hooks directory="hooks">
+		<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+	</Hooks>
+</mod>

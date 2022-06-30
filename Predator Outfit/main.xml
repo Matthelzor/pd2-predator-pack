@@ -162,6 +162,46 @@
 
 
 
+	<PlayerStyle id="predator_emissary" unit="units/predator_emissary/skins/fps_predator_emissary_male/fps_predator_emissary_male" third_unit="units/predator_emissary/skins/predator_emissary_male_average/predator_emissary_male_average" exclude_glove_adapter="true" default_gloves="postmoto" texture_bundle_folder="predator_emissary" global_value="predator_mod">
+		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true" arms="true" glove_adapter="true"/>
+
+		<characters>
+			<bodhi		third_unit="units/predator_emissary/skins/predator_emissary_male_bodhi/predator_emissary_male_bodhi"/>
+			<chains		third_unit="units/predator_emissary/skins/predator_emissary_male_average/predator_emissary_male_average"/>
+			<female_1	third_unit="units/predator_emissary/skins/predator_emissary_female_average/predator_emissary_female_average"/>
+			<bonnie		third_unit="units/predator_emissary/skins/predator_emissary_female_fat/predator_emissary_female_fat"/>
+			<dallas		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<dragon		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<dragan		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<old_hoxton	third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>			
+			<hoxton		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>			
+			<wolf		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>			
+			<joy		third_unit="units/predator_emissary/skins/predator_emissary_female_average/predator_emissary_female_average"/>
+			<max		third_unit="units/predator_emissary/skins/predator_emissary_male_sangres/predator_emissary_male_sangres"/>
+			<wild		third_unit="units/predator_emissary/skins/predator_emissary_male_sangres/predator_emissary_male_sangres"/>
+			<jacket		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<jowi		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<chico		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<jimmy		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<sokol		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<sydney		third_unit="units/predator_emissary/skins/predator_emissary_female_average/predator_emissary_female_average"/>
+			<myh		third_unit="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+			<ecp_female	third_unit="units/predator_emissary/skins/predator_emissary_female_average/predator_emissary_female_average"/>
+			<ecp_male	third_unit="units/predator_emissary/skins/predator_emissary_male_fat/predator_emissary_male_fat"/>						
+		</characters>
+	</PlayerStyle>
+
+
+		<PlayerStyleVariant id="black" player_style_id="predator_emissary" texture_bundle_folder="mods" global_value="predator_mod" material="units/predator_emissary/skins/shared_materials/predator_emissary_fps_black" third_material="units/predator_emissary/skins/shared_materials/predator_emissary_black" desc_id="bm_suit_var_predator_emissary_black_desc">
+		</PlayerStyleVariant>
+
+
+
+
+
+
+
 	<PlayerStyle id="owfl_operative" unit="units/owfl_operative/skins/fps_owfl_operative_male/fps_owfl_operative_male" skip_mask_on_sequence="false" third_unit="units/owfl_operative/skins/owfl_operative_male_average/owfl_operative_male_average" default_gloves="heist_default" texture_bundle_folder="owfl_operative" global_value="predator_mod" >
 		<third_body_replacement	head="false" armor="true" body="true" hands="true" vest="true"/>
 		<body_replacement		head="false" armor="true" body="true" hands="true" vest="true"/>
@@ -389,6 +429,45 @@
 
 
 
+
+
+    	<texture path="guis/dlcs/predator_emissary/textures/pd2/blackmarket/icons/player_styles/predator_emissary"/>
+    	<texture path="guis/dlcs/predator_emissary/textures/pd2/blackmarket/icons/player_styles/predator_emissary_default"/>
+
+    	<df_nm path="units/predator_emissary/skins/predator_emissary_male_fat/body"/>
+    	<df_nm path="units/predator_emissary/skins/predator_emissary_male_fat/skin"/>
+
+		<unit_mat path="units/predator_emissary/skins/predator_emissary_male_bodhi/predator_emissary_male_bodhi"/>
+		<cooked_physics path="units/predator_emissary/skins/predator_emissary_male_bodhi/predator_emissary_male_bodhi"/>
+
+		<unit_mat path="units/predator_emissary/skins/predator_emissary_male_sangres/predator_emissary_male_sangres"/>
+		<cooked_physics path="units/predator_emissary/skins/predator_emissary_male_sangres/predator_emissary_male_sangres"/>
+
+		<unit_mat path="units/predator_emissary/skins/predator_emissary_male_fat/predator_emissary_male_fat"/>
+		<cooked_physics path="units/predator_emissary/skins/predator_emissary_male_fat/predator_emissary_male_fat"/>
+
+		<unit_mat path="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+		<cooked_physics path="units/predator_emissary/skins/predator_emissary_male_big/predator_emissary_male_big"/>
+
+		<unit_mat path="units/predator_emissary/skins/predator_emissary_male_average/predator_emissary_male_average"/>
+		<cooked_physics path="units/predator_emissary/skins/predator_emissary_male_average/predator_emissary_male_average"/>
+
+		<unit_mat path="units/predator_emissary/skins/predator_emissary_female_fat/predator_emissary_female_fat"/>
+		<cooked_physics path="units/predator_emissary/skins/predator_emissary_female_fat/predator_emissary_female_fat"/>
+
+		<unit_mat path="units/predator_emissary/skins/predator_emissary_female_average/predator_emissary_female_average"/>
+		<cooked_physics path="units/predator_emissary/skins/predator_emissary_female_average/predator_emissary_female_average"/>
+
+		<unit_mat path="units/predator_emissary/skins/fps_predator_emissary_male/fps_predator_emissary_male"/>
+		<cooked_physics path="units/predator_emissary/skins/fps_predator_emissary_male/fps_predator_emissary_male"/>
+		
+
+
+
+
+
+
+
     	<texture path="guis/dlcs/owfl_operative/textures/pd2/blackmarket/icons/player_styles/owfl_operative"/>
     	<texture path="guis/dlcs/owfl_operative/textures/pd2/blackmarket/icons/player_styles/owfl_operative_default"/>
 
@@ -507,6 +586,27 @@
 
 
 		<!-- VARIANTS FOR OWFL OPERATOR OUTFIT, DO NOT TOUCH -->
+
+
+
+
+
+
+
+		<!-- BLACK VARIANT - EMISSARY  -->	
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/predator_emissary"/>	
+		<texture path="guis/dlcs/predator_emissary/textures/pd2/blackmarket/icons/player_styles/predator_emissary_default"/>	
+
+		<material_config path="units/predator_emissary/skins/shared_materials/predator_emissary_black"/>
+		<material_config path="units/predator_emissary/skins/shared_materials/predator_emissary_fps_black"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/player_styles/predator_emissary_black"/>	
+		<texture path="units/predator_emissary/skins/shared_textures/black_df"/>		   	
+
+		<!-- BLACK VARIANT - EMISSARY -->	
+
+
+
 
 	</AddFiles>
 </table>

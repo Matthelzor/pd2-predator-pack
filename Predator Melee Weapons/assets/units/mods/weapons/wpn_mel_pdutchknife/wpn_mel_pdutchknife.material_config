@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mtr_pdutchknife" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/mods/weapons/wpn_mel_pdutchknife/pdutchknife_df"/>
+        <bump_normal_texture file="units/mods/weapons/wpn_mel_pdutchknife/pdutchknife_nm"/>
+	</material>
+</materials>

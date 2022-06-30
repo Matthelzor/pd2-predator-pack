@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_pdutchknife" materials="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife" />
+    <graphics>
+        <object enabled="true" name="g_pdutchknife" />
+    </graphics>
+</dynamic_object>

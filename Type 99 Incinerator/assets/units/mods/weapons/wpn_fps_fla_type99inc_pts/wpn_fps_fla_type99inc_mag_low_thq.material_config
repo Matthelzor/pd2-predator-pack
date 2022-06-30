@@ -1,0 +1,14 @@
+<materials version="3" group="weapon_group">
+	<material name="mat_magazine_weyyu_a_flamethrower" render_template="generic:DIFFUSE_TEXTURE:GLOBAL_ENVIRONMENT_MAPPING:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/magazine_df" mip="1"/>
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/magazine_nm" mip="1"/>
+		<material_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/magazine_gsma"/>
+		<reflection_texture file="environments/cubemaps/cubemap_steel" type="cubemap"/>
+	</material>
+	<material name="mat_magazine_il" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/magring_low_df"/>
+		<self_illumination_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/magring_low_df"/>
+		<variable type="scalar" name="il_bloom" value="2"/>
+		<variable type="scalar" name="il_multiplier" value="reddot"/>
+	</material>
+</materials>

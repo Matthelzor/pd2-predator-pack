@@ -16,6 +16,9 @@
 	"bm_gloves_hnd_glv_predator_viking_gloves": "Predator Viking Gloves",
 	"bm_gloves_hnd_glv_predator_viking_gloves_desc" : "'A little bit of Wrath here and there.'",
 
+	"bm_gloves_hnd_glv_predator_emissary_gloves": "Predator Emissary Gloves",
+	"bm_gloves_hnd_glv_predator_emissary_gloves_desc" : "'Military a lot like High-End Gear.'",
+
 	"bm_gloves_hnd_glv_owfl_operator_gloves": "O.W.F.L Tactical Gloves",
 	"bm_gloves_hnd_glv_owfl_operator_gloves_desc" : "'Given only to the very few selected O.F.W.L Project Operatives, that includes you.'"
 }

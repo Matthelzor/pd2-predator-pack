@@ -1,0 +1,7 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_fla_type99inc_pts/wpn_fps_fla_type99inc_mag" orientation_object="rp_type99inc"/>
+	<graphics>
+		<object name="g_tank" enabled="true"/>
+		<object name="g_tank_il" enabled="true"/>
+	</graphics>
+</dynamic_object>

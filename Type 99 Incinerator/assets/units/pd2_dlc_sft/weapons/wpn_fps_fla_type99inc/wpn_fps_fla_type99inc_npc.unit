@@ -1,0 +1,15 @@
+<unit type="wpn" slot="1">
+	<object file="units/mods/weapons/wpn_fps_fla_type99inc/wpn_fps_fla_type99inc"/>
+	<dependencies>
+		<depends_on bnk="soundbanks/weapon_system"/>
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="base" class="NewNPCFlamethrowerBase">
+			<var name="name_id" value="type99inc_crew"/>
+		</extension>
+		<extension name="flamethrower_effect_extension" class="FlamethrowerEffectExtension">
+			<var name="name_id" value="system"/>
+		</extension>
+	</extensions>
+</unit>

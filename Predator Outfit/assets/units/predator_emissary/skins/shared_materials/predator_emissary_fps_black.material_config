@@ -1,0 +1,30 @@
+<materials version="3" group="inf3_acc_t800">
+    <material name="mtr_body" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_emissary/skins/predator_emissary_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_emissary/skins/shared_textures/black_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>   
+
+
+    <material name="mtr_body_lod" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_emissary/skins/predator_emissary_male_fat/skin_nm"/>
+        <diffuse_texture        file="units/predator_emissary/skins/predator_emissary_male_fat/skin_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>   
+
+    <material name="mtr_head" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_emissary/skins/predator_emissary_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_emissary/skins/shared_textures/black_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>   
+
+    <material name="mtr_head_lod" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" version="2">
+        <bump_normal_texture    file="units/predator_emissary/skins/predator_emissary_male_fat/body_nm"/>
+        <diffuse_texture        file="units/predator_emissary/skins/shared_textures/black_df"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>        
+    </material>            
+</materials>

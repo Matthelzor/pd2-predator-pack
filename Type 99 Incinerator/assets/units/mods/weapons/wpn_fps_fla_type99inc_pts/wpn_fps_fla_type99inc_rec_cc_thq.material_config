@@ -1,0 +1,28 @@
+<materials version="3" group="weapon_group">
+	<material name="mat_cqw_flamethrower_weyyu_a" render_template="generic_customizable:CUBE_ENVIRONMENT_MAPPING:DECAL_STICKER_UV2:DIFFUSE_TEXTURE:GRADIENTMAP:NORMALMAP:PATTERN_GRADIENTMAP:PATTERN_GRADIENTMAP_ANGLE_OFFSET:PATTERN_UV2:WEAR_TEAR_MASKING" unique ="true" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/weapon_df_cc" mip="1"/>
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/weapon_nm" mip="1"/>
+		<diffuse_layer1_texture file="units/payday2_cash/safes/default/base_gradient/base_default_df"/>
+		<diffuse_layer2_texture file="units/payday2_cash/safes/default/pattern_gradient/gradient_default_df"/>
+		<diffuse_layer0_texture file="units/payday2_cash/safes/default/pattern/pattern_default_df"/>
+		<reflection_texture type="cube" global_texture="current_global_texture"/>
+		<variable value="1 0 1" type="vector3" name="pattern_tweak"/>
+		<variable value="0 0 0" type="vector3" name="pattern_pos"/>
+		<variable value="0" type="scalar" name="wear_tear_value"/>
+		<diffuse_layer3_texture file="units/payday2_cash/safes/default/sticker/sticker_default_df"/>
+		<variable value="1 1 1" type="vector3" name="uv_scale"/>
+		<variable value="0 0 0" type="vector3" name="uv_offset_rot"/>
+		<variable value="0 0 0" type="vector3" name="cubemap_pattern_control"/>
+	</material>
+	<material name="mat_weapon_decal_weyyu" render_template="effect:DIFFUSE0_TEXTURE:FPS" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/weapon_graphics_weyyu_df"/>
+		<variable value="0.5" type="scalar" name="intensity"/>
+	</material>
+    <material name="mat_polycarb_clear_weyyu_guns_lens" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:FPS:NORMALMAP" unique="true" version="2">
+        <variable value="0 1 0.66999995708466" type="vector3" name="fresnel_settings"/>
+		<diffuse_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/weapon_df" mip="1"/>
+		<opacity_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/weapon_op" mip="1"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_fla_type99inc_pts/textures/weapon_nm" mip="1"/>
+    </material>
+</materials>

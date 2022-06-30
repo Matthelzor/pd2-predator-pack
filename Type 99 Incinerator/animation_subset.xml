@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<tweaks>
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_subset">
+		<search>
+			<xml/>
+		</search>
+		<target mode="attach">
+			<anim name="type99inc_idle"					file="anims/fps/type99inc/type99inc_idle" blend_set="all"/>
+			<anim name="type99inc_reload"				file="anims/fps/type99inc/type99inc_reload" blend_set="all"/>
+			<anim name="type99inc_reload_not_empty"		file="anims/fps/type99inc/type99inc_reload" blend_set="all"/>
+			<anim name="type99inc_equip"				file="anims/fps/rpk/rpk_equip" blend_set="all"/>
+			<anim name="type99inc_unequip"				file="anims/fps/rpk/rpk_unequip" blend_set="all"/>
+			<anim name="type99inc_recoil"				file="anims/fps/type99inc/type99inc_recoil_enter" blend_set="all"/>
+			<anim name="type99inc_recoil_enter"			file="anims/fps/type99inc/type99inc_recoil_enter" blend_set="all"/>
+			<anim name="type99inc_recoil_loop"			file="anims/fps/type99inc/type99inc_recoil_loop" blend_set="all"/>
+			<anim name="type99inc_recoil_exit"			file="anims/fps/type99inc/type99inc_recoil_exit" blend_set="all"/>
+			<anim name="type99inc_recoil_steelsight"	file="anims/fps/type99inc/type99inc_recoil_exit" blend_set="all"/>
+			<anim name="type99inc_melee"				file="anims/fps/rpk/rpk_melee" blend_set="all"/>
+			<anim name="type99inc_melee_miss"			file="anims/fps/rpk/rpk_melee_miss" blend_set="all"/>
+			<anim name="type99inc_use"					file="anims/fps/rpk/rpk_use" blend_set="all"/>
+			<anim name="type99inc_sprint"				file="anims/fps/rpk/rpk_sprint" blend_set="all"/>
+			<anim name="type99inc_sprint_exit"			file="anims/fps/rpk/rpk_sprint_exit" blend_set="all"/>
+			<anim name="type99inc_sprint_enter"			file="anims/fps/rpk/rpk_sprint_enter" blend_set="all"/>
+			<anim name="type99inc_com_down_var1" 		file="anims/fps/rpk/rpk_com_var1" blend_set="all"/>
+			<anim name="type99inc_com_stop"				file="anims/fps/rpk/rpk_com_var5" blend_set="all"/>
+			<anim name="type99inc_com_come"				file="anims/fps/rpk/rpk_com_var6" blend_set="all"/>
+			<anim name="type99inc_com_point"			file="anims/fps/rpk/rpk_com_var7" blend_set="all"/>
+			<anim name="type99inc_get_up"				file="anims/fps/rpk/rpk_get_up" blend_set="all"/>
+			<anim name="type99inc_gogo"					file="anims/fps/rpk/rpk_gogo" blend_set="all"/>
+			<anim name="type99inc_tased"				file="anims/fps/rpk/rpk_tased" blend_set="all"/>
+			<anim name="type99inc_tased_boost"			file="anims/fps/rpk/rpk_tased_boost" blend_set="all"/>
+			<anim name="type99inc_tased_exit"			file="anims/fps/rpk/rpk_tased_exit" blend_set="all"/>
+			<anim name="type99inc_inspect"				file="anims/fps/rpk/rpk_inspect" blend_set="all"/>
+		</target>
+	</tweak>
+</tweaks>

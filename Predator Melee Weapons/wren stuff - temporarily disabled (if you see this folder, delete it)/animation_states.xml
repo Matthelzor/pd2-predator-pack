@@ -1,0 +1,50 @@
+<!--
+<?xml version="1.0"?>
+<tweaks>
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_states">
+		<search>
+			<xml/>
+			<state name="fps/melee_start"/>
+			<anim name="melee_start" weight="melee_knife"/>
+		</search>
+		<target mode="append">
+			<anim name="melee_pdutchknife_start" weight="melee_pdutchknife"/>
+		</target>
+	</tweak>
+
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_states">
+		<search>
+			<xml/>
+			<state name="fps/melee_charge"/>
+			<anim name="melee_charge" weight="melee_knife * charge_lerp"/>
+		</search>
+		<target mode="append">
+			<anim name="melee_pdutchknife_charge" weight="melee_pdutchknife"/>
+		</target>
+	</tweak>
+
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_states">
+		<search>
+			<xml/>
+			<state name="fps/melee_attack"/>
+			<anim name="melee_attack" weight="melee_knife * var4"/>
+		</search>
+		<target mode="append">
+			<anim name="melee_pdutchknife_attack" weight="melee_pdutchknife"/>
+		</target>
+	</tweak>
+
+
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_states">
+		<search>
+			<xml/>
+			<state name="fps/melee_attack"/>
+			<anim name="melee_attack_var1" weight="melee_knife * var1"/>
+		</search>
+		<target mode="append">
+			<anim name="melee_pdutchknife_attack" weight="melee_pdutchknife"/>
+		</target>
+	</tweak>
+
+</tweaks>
+-->

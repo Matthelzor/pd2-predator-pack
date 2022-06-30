@@ -1,6 +1,12 @@
 {
   "menu_l_global_value_predator_mod" : "This is a Predator Pack Item!",
 
+  "bm_msk_predator_dogmeat" : "Wolf Predator",
+  "bm_msk_predator_dogmeat_desc" : "Master Hunter.",
+
+  "bm_msk_predator_emissary" : "Emissary",
+  "bm_msk_predator_emissary_desc" : "Mask of a Deceased Yautjan Soldier.",
+
   "bm_msk_predator_detox" : "Detox",
   "bm_msk_predator_detox_desc" : "Morphine administered.",
 

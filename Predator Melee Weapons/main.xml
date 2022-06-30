@@ -8,29 +8,52 @@
 		<stats min_damage="25" max_damage="45" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="28"/>
 	</melee>
 	
+
+    
 	<Melee id="pkat" based_on="sandsteel" unit="units/mods/weapons/wpn_mel_pkat/wpn_mel_pkat" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" > 
 		<stats min_damage="20" max_damage="27.5" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="29"/>
         <fire_dot_data dot_trigger_chance="97" dot_damage="2" dot_length="5.1" dot_trigger_max_distance="3000" dot_tick_period="0.5"/>        
 	</melee>
 	
+
+
 	<Melee id="pclub" based_on="tomahawk" unit="units/mods/weapons/wpn_mel_pclub/wpn_mel_pclub" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
 		<stats min_damage="20" max_damage="15" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="30"/>
 	</melee>
 	
+
+
 	<Melee id="peld" based_on="great" unit="units/mods/weapons/wpn_mel_peld/wpn_mel_peld" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
 		<stats min_damage="20" max_damage="30" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="29"/>
 	</melee>
 	
+
+
 	<Melee id="pspear" based_on="freedom" unit="units/mods/weapons/wpn_mel_pspear/wpn_mel_pspear" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
 		<stats min_damage="15" max_damage="25" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="325" concealment="28"/>
 	</melee>
 	
+
+
 	<Melee id="psick" based_on="morning" unit="units/mods/weapons/wpn_mel_psick/wpn_mel_psick" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
 		<stats min_damage="15" max_damage="25" charge_time="3" min_damage_effect="1" max_damage_effect="2" range="225" concealment="30"/>
         <dot_data type="poison">
             <custom_data dot_length="1" hurt_animation_chance="0.7"></custom_data>
         </dot_data>        
 	</melee>
+
+
+    <Melee id="pdutchknife" based_on="kabartanto" unit="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife" texture_bundle_folder="mods" dlc="predator_mod" global_value="predator_mod" >
+
+		<sounds equip="knife_equip" hit_air="knife_hit_air" hit_gen="knife_hit_gen" hit_body="knife_hit_body" charge="knife_charge"/>
+        <stats min_damage="8" max_damage="12" charge_time="2" min_damage_effect="1" max_damage_effect="2" range="185" concealment="30"/>
+        <dot_data type="poison">
+            <custom_data dot_length="1" hurt_animation_chance="0.7"></custom_data>
+        </dot_data>        
+
+    </melee>
+
+
     
     <AddFiles directory="assets">
       
@@ -109,6 +132,30 @@
 		<texture path="units/mods/weapons/wpn_mel_pbaxe/pbaxe_il"/>
         <texture path="units/mods/weapons/wpn_mel_pbaxe/pbaxe_nm"/>
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/pbaxe"/>
+
+
+		<!-- Predator Dutch's Knife -->
+
+        <cooked_physics path="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife"/>
+        <model path="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife"/>
+        <object path="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife"/>
+        <unit path="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife"/>
+        <material_config path="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife"/>
+		<material_config path="units/mods/weapons/wpn_mel_pdutchknife/wpn_mel_pdutchknife_thq"/>
+
+        <texture path="units/mods/weapons/wpn_mel_pdutchknife/pdutchknife_df"/>
+        <texture path="units/mods/weapons/wpn_mel_pdutchknife/pdutchknife_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/pdutchknife"/>
+
+		<!-- Unused due to buggy nature of alignment - alongside anim_global_param="melee_pdutchknife"
+
+    	<animation path="anims/fps/melee/pdutchknife/melee_start"/>
+    	<animation path="anims/fps/melee/pdutchknife/melee_charge"/>
+		<animation path="anims/fps/melee/pdutchknife/melee_attack"/>
+		<animation path="anims/fps/melee/pdutchknife/melee_attack_var1"/>
+
+		<!-- Predator Dutch's Knife -->
+
 
     </AddFiles>
 </table>

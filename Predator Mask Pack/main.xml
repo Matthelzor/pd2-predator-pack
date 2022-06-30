@@ -3,6 +3,15 @@
 
     <GlobalValue id="predator_mod" color="Color(1.1, 2.0, 0.1)"/>
 
+
+    <Mask id="predator_dogmeat" unit="units/mods/masks/msk_predator_dogmeat/msk_predator_dogmeat" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.6"/>
+    </Mask>    
+
+    <Mask id="predator_emissary" unit="units/mods/masks/msk_predator_emissary/msk_predator_emissary" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
+        <night_vision effect="color_night_vision" light="0.6"/>
+    </Mask>    
+
     <Mask id="predator_detox" unit="units/mods/masks/msk_predator_detox/msk_predator_detox" type="helmet" global_value="predator_mod" skip_mask_on_sequence="false">
         <night_vision effect="color_night_vision" light="0.3"/>
     </Mask>    
@@ -131,6 +140,20 @@
     </Mask>    
 
     <AddFiles directory="assets">
+
+
+
+        <unit_mat path="units/mods/masks/msk_predator_dogmeat/msk_predator_dogmeat"/>
+        <df_nm path="units/mods/masks/msk_predator_dogmeat/mask"/>
+        <texture path="units/mods/masks/msk_predator_dogmeat/il"/>
+
+
+
+        <unit_mat path="units/mods/masks/msk_predator_emissary/msk_predator_emissary"/>
+        <df_nm path="units/mods/masks/msk_predator_emissary/mask"/>
+        <texture path="units/mods/masks/msk_predator_emissary/il"/>
+
+
 
         <unit_mat path="units/mods/masks/msk_predator_detox/msk_predator_detox"/>
         <df_nm path="units/mods/masks/msk_predator_detox/mask"/>
@@ -312,7 +335,8 @@
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/samurai_predator"/>       
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_mr_black"/>             
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_detox"/>             
-
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_emissary"/> 
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_dogmeat"/> 
 
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/predator_kawaii"/>                              
     </AddFiles>

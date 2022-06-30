@@ -27,6 +27,13 @@
 	</Gloves>
 
 
+
+	<Gloves id="hnd_glv_predator_emissary_gloves" unit="units/hnd_glv_predator_emissary_gloves/gloves/hnd_glv_predator_emissary_gloves/hnd_glv_predator_emissary_gloves" third_material="units/hnd_glv_predator_emissary_gloves/gloves/hnd_glv_predator_emissary_gloves/hnd_glv_predator_emissary_gloves_third">
+	</Gloves>
+
+
+
+
 	<Gloves id="hnd_glv_owfl_operator_gloves" unit="units/hnd_glv_owfl_operator_gloves/gloves/hnd_glv_owfl_operator_gloves/hnd_glv_owfl_operator_gloves" third_material="units/hnd_glv_owfl_operator_gloves/gloves/hnd_glv_owfl_operator_gloves/hnd_glv_owfl_operator_gloves_third">
 	</Gloves>
 
@@ -68,6 +75,15 @@
 		
 		<unit_mat path="units/hnd_glv_predator_viking_gloves/gloves/hnd_glv_predator_viking_gloves/hnd_glv_predator_viking_gloves"/>
 		<material_config path="units/hnd_glv_predator_viking_gloves/gloves/hnd_glv_predator_viking_gloves/hnd_glv_predator_viking_gloves_third"/>	
+
+
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/gloves/hnd_glv_predator_emissary_gloves"/>
+		<df_nm path="units/hnd_glv_predator_emissary_gloves/gloves/hnd_glv_predator_emissary_gloves/gloves"/>
+		<df_nm path="units/hnd_glv_predator_emissary_gloves/gloves/hnd_glv_predator_emissary_gloves/skin"/>
+		
+		<unit_mat path="units/hnd_glv_predator_emissary_gloves/gloves/hnd_glv_predator_emissary_gloves/hnd_glv_predator_emissary_gloves"/>
+		<material_config path="units/hnd_glv_predator_emissary_gloves/gloves/hnd_glv_predator_emissary_gloves/hnd_glv_predator_emissary_gloves_third"/>	
 
 
 

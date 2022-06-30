@@ -1,0 +1,6 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_fla_type99inc_pts/wpn_fps_fla_type99inc_rec" orientation_object="rp_type99inc"/>
+	<graphics>
+		<object name="g_rec" enabled="true"/>
+	</graphics>
+</dynamic_object>

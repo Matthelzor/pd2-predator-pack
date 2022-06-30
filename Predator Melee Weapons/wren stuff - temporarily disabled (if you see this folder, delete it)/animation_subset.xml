@@ -1,0 +1,17 @@
+<!--
+<?xml version="1.0"?>
+<tweaks>
+	<tweak version="2" name="anims/fps/fps_spawn" extension="animation_subset">
+		<search>
+			<xml/>
+		</search>
+
+		<target mode="attach">
+			<anim name="melee_pdutchknife_start"		file="anims/fps/melee/pdutchknife/melee_start" blend_set="all"/>
+			<anim name="melee_pdutchknife_charge"		file="anims/fps/melee/pdutchknife/melee_charge" blend_set="all"/>
+			<anim name="melee_pdutchknife_attack"		file="anims/fps/melee/pdutchknife/melee_attack" blend_set="all"/>
+			<anim name="melee_pdutchknife_attack_var1"	file="anims/fps/melee/pdutchknife/melee_attack_var1" blend_set="all"/>
+		</target>
+	</tweak>
+</tweaks>
+-->
